@@ -28,7 +28,7 @@ PCB size is to be as small as possible and to be powered by the USB bus, to allo
  
 ### Status
 
-This PCB is in *active* development, please refrain from printing circuit boards and expect them to work.
+This PCB is in active development, please refrain from printing circuit boards and expecting them to work.
 
 I will update this status as work progresses.
 
