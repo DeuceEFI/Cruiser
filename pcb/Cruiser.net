@@ -1,0 +1,573 @@
+# EESchema Netlist Version 1.1 created  Sat 03 Nov 2012 01:36:34 PM EDT
+(
+ ( /50954237 c_1206 C1 0.1uF
+  ( 1 /RESET )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /5095423A/4F0A45B0 c_1206 C2 0.1uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /5095423A/4F0A4530 c_1206 C3 0.1uF
+  ( 1 N-000111 )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954225 c_1206 C4 0.22uF
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000034 )
+ )
+ ( /5095424B c_1206 C5 0.22uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954249 c_1206 C6 0.22uF
+  ( 1 /ft232/GND-usb )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /5095424A c_1206 C7 0.22uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954228 c_1206 C8 0.22uF
+  ( 1 /ft232/GND-usb )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /50954224 c_1206 C9 0.22uF
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000096 )
+ )
+ ( /50954248 c_1206 C10 0.22uF
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000042 )
+ )
+ ( /50954221 c_tant_A C11 10uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954223 c_tant_A C12 10uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954244 c_1206 C13 20pF
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000056 )
+ )
+ ( /50954243 c_1206 C14 20pF
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000057 )
+ )
+ ( /5095423A/4F179530 c_tant_A C15 4.7uF
+  ( 1 /ft232/5v-USB )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954247 c_1206 C16 6.8nF
+  ( 1 N-000043 )
+  ( 2 N-000042 )
+ )
+ ( /50954246 c_1206 C17 680pF
+  ( 1 N-000055 )
+  ( 2 N-000042 )
+ )
+ ( /50954235 LED-1206 D1 LED
+  ( 1 /ft232/5v-USB )
+  ( 2 N-000058 )
+ )
+ ( /5095423A/4F0A45FE LED-1206 D2 LED
+  ( 1 N-000107 )
+  ( 2 N-000110 )
+ )
+ ( /5095423A/4F0A4611 LED-1206 D3 LED
+  ( 1 N-000108 )
+  ( 2 N-000109 )
+ )
+ ( /5095423A/509549E6 USB_B J1 USB-A
+  ( 1 /ft232/Vbus )
+  ( 2 /ft232/D- )
+  ( 3 /ft232/D+ )
+  ( 4 /ft232/GND-usb )
+ )
+ ( /5095487A wirewrap P1 5v
+  ( 1 /ft232/5v-USB )
+ )
+ ( /50954216 $noname$ P2 AN0-15
+  ( 1 N-000041 )
+  ( 2 N-000090 )
+  ( 3 N-000048 )
+  ( 4 N-000081 )
+  ( 5 N-000047 )
+  ( 6 N-000082 )
+  ( 7 N-000046 )
+  ( 8 N-000083 )
+  ( 9 N-000045 )
+  ( 10 N-000099 )
+  ( 11 N-000044 )
+  ( 12 N-000091 )
+  ( 13 N-000049 )
+  ( 14 N-000084 )
+  ( 15 N-000038 )
+  ( 16 N-000085 )
+ )
+ ( /5095423B WireConnection P3 BDM
+  ( 1 /BKGD )
+  ( 2 /ft232/GND-usb )
+  ( 3 ? )
+  ( 4 /RESET )
+  ( 5 ? )
+  ( 6 /ft232/5v-USB )
+ )
+ ( /50954217 WireConnection P4 CONN_6
+  ( 1 N-000102 )
+  ( 2 N-000089 )
+  ( 3 N-000093 )
+  ( 4 N-000078 )
+  ( 5 N-000079 )
+  ( 6 N-000080 )
+ )
+ ( /50954214 WireConnection P5 Fuel_Pump
+  ( 1 N-000035 )
+ )
+ ( /50954890 WireConnection P6 GND
+  ( 1 /ft232/GND-usb )
+ )
+ ( /50954219 SIL-8 P7 PB0-7
+  ( 1 N-000062 )
+  ( 2 N-000063 )
+  ( 3 N-000097 )
+  ( 4 N-000101 )
+  ( 5 N-000087 )
+  ( 6 N-000064 )
+  ( 7 N-000037 )
+  ( 8 N-000065 )
+ )
+ ( /50954218 SIL-8 P8 PK0-3
+  ( 1 N-000066 )
+  ( 2 N-000067 )
+  ( 3 N-000068 )
+  ( 4 N-000069 )
+ )
+ ( /5095421A PIN_STRIP_2 P9 PK4&5
+  ( 1 N-000106 )
+  ( 2 N-000092 )
+ )
+ ( /5095421C SIL-8 P10 PP0-7
+  ( 1 N-000010 )
+  ( 2 N-000073 )
+  ( 3 N-000009 )
+  ( 4 N-000074 )
+  ( 5 N-000105 )
+  ( 6 N-000075 )
+  ( 7 N-000095 )
+  ( 8 N-000076 )
+ )
+ ( /5095421B SIL-8 P11 PT0-7
+  ( 1 N-000077 )
+  ( 2 N-000011 )
+  ( 3 N-000059 )
+  ( 4 N-000040 )
+  ( 5 N-000036 )
+  ( 6 N-000060 )
+  ( 7 N-000100 )
+  ( 8 N-000061 )
+ )
+ ( /50954220 wirewrap P12 RX1
+  ( 1 N-000039 )
+ )
+ ( /5095421E wirewrap P13 RXCAN0
+  ( 1 N-000071 )
+ )
+ ( /5095421F wirewrap P14 TX1
+  ( 1 N-000033 )
+ )
+ ( /5095421D wirewrap P15 TXCAN0
+  ( 1 N-000072 )
+ )
+ ( /5095423E SM1206 R1 10k
+  ( 1 N-000098 )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /5095423F SM1206 R2 10k
+  ( 1 N-000050 )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /50954240 SM1206 R3 10k
+  ( 1 N-000088 )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /5095423C SM1206 R4 10k
+  ( 1 /BKGD )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /50954236 SM1206 R5 10k
+  ( 1 N-000104 )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /5095423D SM1206 R6 10k
+  ( 1 /RESET )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /50954222 SM1206 R7 1k
+  ( 1 N-000070 )
+  ( 2 N-000104 )
+ )
+ ( /50954241 SM1206 R8 1k
+  ( 1 N-000104 )
+  ( 2 N-000058 )
+ )
+ ( /5095423A/4F2F42B1 SM1206 R9 22
+  ( 1 /ft232/Vbus )
+  ( 2 /ft232/5v-USB )
+ )
+ ( /50954245 SM1206 R10 3.3k
+  ( 1 N-000043 )
+  ( 2 N-000055 )
+ )
+ ( /5095423A/4F0A462A SM1206 R11 470
+  ( 1 /ft232/5v-USB )
+  ( 2 N-000107 )
+ )
+ ( /5095423A/4F0A4640 SM1206 R12 470
+  ( 1 /ft232/5v-USB )
+  ( 2 N-000108 )
+ )
+ ( /50954226 switch-tact-DTS-6 SW1 Load/Run
+  ( 1 /ft232/GND-usb )
+  ( 2 N-000104 )
+ )
+ ( /50954215 switch-tact-DTS-6 SW2 Reset
+  ( 1 /RESET )
+  ( 2 /ft232/GND-usb )
+ )
+ ( /5095423A/4F0A4204 SSOP28 U1 FT232RL
+  ( 1 /ft232/RX )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /ft232/5v-USB )
+  ( 5 /TX )
+  ( 6 ? )
+  ( 7 /ft232/GND-usb )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /ft232/D+ )
+  ( 16 /ft232/D- )
+  ( 17 N-000111 )
+  ( 18 /ft232/GND-usb )
+  ( 19 ? )
+  ( 20 /ft232/5v-USB )
+  ( 21 /ft232/GND-usb )
+  ( 22 N-000109 )
+  ( 23 N-000110 )
+  ( 24 ? )
+  ( 25 /ft232/GND-usb )
+  ( 26 /ft232/GND-usb )
+  ( 27 ? )
+  ( 28 ? )
+ )
+ ( /50954238 PQFP112 U2 MC9S12XDP512
+  ( 1 N-000074 )
+  ( 2 N-000009 )
+  ( 3 N-000073 )
+  ( 4 N-000010 )
+  ( 5 N-000069 )
+  ( 6 N-000068 )
+  ( 7 N-000067 )
+  ( 8 N-000066 )
+  ( 9 N-000077 )
+  ( 10 N-000011 )
+  ( 11 N-000059 )
+  ( 12 N-000040 )
+  ( 13 N-000034 )
+  ( 14 /ft232/GND-usb )
+  ( 15 N-000036 )
+  ( 16 N-000060 )
+  ( 17 N-000100 )
+  ( 18 N-000061 )
+  ( 19 N-000092 )
+  ( 20 N-000106 )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 /BKGD )
+  ( 24 N-000062 )
+  ( 25 N-000063 )
+  ( 26 N-000097 )
+  ( 27 N-000101 )
+  ( 28 N-000087 )
+  ( 29 N-000064 )
+  ( 30 N-000037 )
+  ( 31 N-000065 )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 N-000098 )
+  ( 37 N-000050 )
+  ( 38 N-000088 )
+  ( 39 ? )
+  ( 40 /ft232/GND-usb )
+  ( 41 /ft232/5v-USB )
+  ( 42 /RESET )
+  ( 43 N-000042 )
+  ( 44 N-000055 )
+  ( 45 /ft232/GND-usb )
+  ( 46 N-000056 )
+  ( 47 N-000057 )
+  ( 48 /ft232/GND-usb )
+  ( 49 ? )
+  ( 50 ? )
+  ( 51 ? )
+  ( 52 ? )
+  ( 53 ? )
+  ( 54 ? )
+  ( 55 ? )
+  ( 56 ? )
+  ( 57 N-000102 )
+  ( 58 N-000089 )
+  ( 59 N-000093 )
+  ( 60 N-000078 )
+  ( 61 N-000079 )
+  ( 62 N-000080 )
+  ( 63 N-000070 )
+  ( 64 N-000035 )
+  ( 65 N-000096 )
+  ( 66 /ft232/GND-usb )
+  ( 67 N-000041 )
+  ( 68 N-000090 )
+  ( 69 N-000048 )
+  ( 70 N-000081 )
+  ( 71 N-000047 )
+  ( 72 N-000082 )
+  ( 73 N-000046 )
+  ( 74 N-000083 )
+  ( 75 N-000045 )
+  ( 76 N-000099 )
+  ( 77 N-000044 )
+  ( 78 N-000091 )
+  ( 79 N-000049 )
+  ( 80 N-000084 )
+  ( 81 N-000038 )
+  ( 82 N-000085 )
+  ( 83 /ft232/5v-USB )
+  ( 84 /ft232/5v-USB )
+  ( 85 /ft232/GND-usb )
+  ( 86 /ft232/GND-usb )
+  ( 87 ? )
+  ( 88 ? )
+  ( 89 /ft232/RX )
+  ( 90 /TX )
+  ( 91 N-000039 )
+  ( 92 N-000033 )
+  ( 93 ? )
+  ( 94 ? )
+  ( 95 ? )
+  ( 96 ? )
+  ( 97 /ft232/5v-USB )
+  ( 98 ? )
+  ( 99 ? )
+  ( 100 ? )
+  ( 101 ? )
+  ( 102 ? )
+  ( 103 ? )
+  ( 104 N-000072 )
+  ( 105 N-000071 )
+  ( 106 /ft232/GND-usb )
+  ( 107 /ft232/5v-USB )
+  ( 108 ? )
+  ( 109 N-000076 )
+  ( 110 N-000095 )
+  ( 111 N-000075 )
+  ( 112 N-000105 )
+ )
+ ( /50954242 SMD_Crystal X1 16MHz
+  ( 1 N-000056 )
+  ( 2 N-000057 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ CP*
+ SM*
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$endfootprintlist
+}
