@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 03 Nov 2012 01:36:34 PM EDT
+# EESchema Netlist Version 1.1 created  Sat 03 Nov 2012 04:09:17 PM EDT
 (
  ( /50954237 c_1206 C1 0.1uF
   ( 1 /RESET )
@@ -107,7 +107,7 @@
   ( 15 N-000038 )
   ( 16 N-000085 )
  )
- ( /5095423B WireConnection P3 BDM
+ ( /5095423B PIN_ARRAY_3X2 P3 BDM
   ( 1 /BKGD )
   ( 2 /ft232/GND-usb )
   ( 3 ? )
@@ -139,7 +139,7 @@
   ( 7 N-000037 )
   ( 8 N-000065 )
  )
- ( /50954218 SIL-8 P8 PK0-3
+ ( /50954218 PIN_STRIP_4 P8 PK0-3
   ( 1 N-000066 )
   ( 2 N-000067 )
   ( 3 N-000068 )
