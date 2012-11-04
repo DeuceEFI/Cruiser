@@ -1,5 +1,5 @@
-update=Sat 03 Nov 2012 11:03:22 PM EDT
-last_client=cvpcb
+update=Sun 04 Nov 2012 01:10:08 AM EDT
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -41,8 +41,6 @@ LibName2=Jaguar
 LibName3=power
 LibName4=conn
 LibName5=transistors
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=394
@@ -78,3 +76,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1

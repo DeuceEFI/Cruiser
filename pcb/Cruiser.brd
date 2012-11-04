@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:06:42 AM EDT
+PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:09:57 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -9,7 +9,7 @@ EnabledLayers 1FFF8001
 Links 92
 NoConn 0
 Di 78521 36494 106427 46512
-Ndraw 21
+Ndraw 22
 Ntrack 459
 Nzone 0
 BoardThickness 630
@@ -3036,6 +3036,11 @@ Po 175 1400
 .LocalClearance 30
 $EndPAD
 $EndMODULE  USB-A-PCB-Traces
+$TEXTPCB
+Te "git hash: 0dbdc55951"
+Po 95228 43905 300 300 60 0
+De 20 0 0 Normal
+$EndTEXTPCB
 $TEXTPCB
 Te "2012"
 Po 100134 43209 600 600 100 0
