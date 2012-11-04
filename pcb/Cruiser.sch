@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Nov 2012 02:43:39 PM EST
+EESchema Schematic File Version 2  date Sun 04 Nov 2012 03:02:35 PM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -951,14 +951,14 @@ L CONN_2 SW1
 U 1 1 50954226
 P 6250 5200
 F 0 "SW1" V 6200 5200 40  0000 C CNN
-F 1 "Load/Run" V 6300 5200 40  0000 C CNN
+F 1 "Load" V 6300 5200 40  0000 C CNN
 	1    6250 5200
 	-1   0    0    1   
 $EndComp
 Text Notes 6400 4550 0    40   ~ 0
 X7R Ceramic
-Text Notes 6700 5150 0    40   ~ 0
-Load/Run:\nOpen = Run\nClosed = Load
+Text Notes 6700 5100 0    40   ~ 0
+Load SW1:\nOpen = Run\nClosed = Load
 $Comp
 L C C4
 U 1 1 50954225
