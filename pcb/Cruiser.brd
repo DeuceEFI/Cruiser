@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:14:42 AM EDT
+PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:15:58 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -3042,7 +3042,7 @@ Po 95106 43209 350 350 80 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "git hash: 0dbdc55951"
+Te "git hash: 0dac5ede2d"
 Po 95138 43886 300 300 60 0
 De 20 0 0 Normal
 $EndTEXTPCB
