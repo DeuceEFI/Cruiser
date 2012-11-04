@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sun 04 Nov 2012 02:00:42 PM EST
+# EESchema Netlist Version 1.1 created  Sun 04 Nov 2012 05:24:57 PM EST
 (
  ( /50954237 c_1206 C1 0.1uF
   ( 1 /RESET )
@@ -289,7 +289,7 @@
   ( 111 ? )
   ( 112 ? )
  )
- ( /50954242 SMD_Crystal X1 16MHz
+ ( /50954242 2-SMD X1 16MHz
   ( 1 N-000084 )
   ( 2 N-000085 )
  )
