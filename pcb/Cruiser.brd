@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:09:57 AM EDT
+PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 01:14:42 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -9,7 +9,7 @@ EnabledLayers 1FFF8001
 Links 92
 NoConn 0
 Di 78521 36494 106427 46512
-Ndraw 22
+Ndraw 23
 Ntrack 459
 Nzone 0
 BoardThickness 630
@@ -3037,8 +3037,13 @@ Po 175 1400
 $EndPAD
 $EndMODULE  USB-A-PCB-Traces
 $TEXTPCB
+Te "Version 0.1-alpha"
+Po 95106 43209 350 350 80 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "git hash: 0dbdc55951"
-Po 95228 43905 300 300 60 0
+Po 95138 43886 300 300 60 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -3084,7 +3089,7 @@ $EndTEXTPCB
 $COTATION
 Ge 0 16 0
 Va 1878
-Te "0.1878 ""
+Te "0.1878 "
 Po 102964 40432 600 800 120 899 1
 Sb 0 103531 39494 103527 41372 70
 Sd 0 106417 41378 102397 41370 70
@@ -4106,7 +4111,7 @@ ZLayer 15
 ZAux 4 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 95984 45252 0
 ZCorner 95984 37819 0
 ZCorner 88496 37819 0
@@ -4641,7 +4646,7 @@ ZLayer 0
 ZAux 8 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 101968 46504 0
 ZCorner 101968 43650 0
 ZCorner 103118 43650 0
