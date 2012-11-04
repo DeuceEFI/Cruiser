@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Nov 2012 10:52:01 AM EST
+EESchema Schematic File Version 2  date Sun 04 Nov 2012 10:56:37 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -12,7 +12,7 @@ Sheet 1 1
 Title "Cruiser"
 Date "4 nov 2012"
 Rev "0.1-alpha"
-Comp "git hash: "
+Comp "git hash: 957894db06"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -21,9 +21,7 @@ $EndDescr
 Wire Notes Line
 	9000 7000 11150 7000
 Wire Wire Line
-	7750 2900 7750 2850
-Wire Wire Line
-	7750 2850 7750 1750
+	7750 2900 7750 1750
 Wire Wire Line
 	10950 1150 10700 1150
 Wire Wire Line
@@ -47,9 +45,7 @@ Wire Wire Line
 Wire Notes Line
 	8900 6150 8900 7000
 Wire Wire Line
-	8000 6750 8300 6750
-Wire Wire Line
-	8300 6750 8600 6750
+	8000 6750 8600 6750
 Connection ~ 2900 7100
 Connection ~ 2900 6600
 Wire Wire Line
@@ -59,9 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 7100 3300 7200
 Wire Wire Line
-	3300 7200 3200 7200
-Wire Wire Line
-	3200 7200 3100 7200
+	3300 7200 3100 7200
 Wire Wire Line
 	3100 7200 3100 7100
 Wire Wire Line
@@ -72,9 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 6550 10550 6450
 Wire Wire Line
-	10550 6450 10250 6450
-Wire Wire Line
-	10250 6450 10050 6450
+	10550 6450 10050 6450
 Connection ~ 6000 2100
 Connection ~ 6000 1700
 Wire Wire Line
@@ -93,9 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 4500 6100 4350
 Wire Wire Line
-	6100 4350 6250 4350
-Wire Wire Line
-	6250 4350 6500 4350
+	6100 4350 6500 4350
 Wire Wire Line
 	950  3850 1100 3850
 Wire Wire Line
@@ -104,9 +94,7 @@ Connection ~ 5100 1700
 Wire Wire Line
 	7350 6000 7350 5950
 Wire Wire Line
-	7350 5950 7300 5950
-Wire Wire Line
-	7300 5950 7050 5950
+	7350 5950 7050 5950
 Connection ~ 3050 1550
 Wire Wire Line
 	3500 6800 3500 6500
@@ -164,9 +152,7 @@ Connection ~ 6000 4500
 Connection ~ 4200 6500
 Connection ~ 10050 6350
 Wire Wire Line
-	6800 6350 7050 6350
-Wire Wire Line
-	7050 6350 7300 6350
+	6800 6350 7300 6350
 Wire Wire Line
 	1100 3850 1100 4000
 Wire Wire Line
@@ -234,13 +220,9 @@ Wire Wire Line
 	7300 5900 7300 5950
 Connection ~ 7300 5950
 Wire Wire Line
-	5100 1650 5100 1700
+	5100 1650 5100 1800
 Wire Wire Line
-	5100 1700 5100 1800
-Wire Wire Line
-	6000 1700 5100 1700
-Wire Wire Line
-	5100 1700 5000 1700
+	6000 1700 5000 1700
 Wire Wire Line
 	2900 1550 3050 1550
 Wire Wire Line
@@ -254,14 +236,10 @@ Wire Wire Line
 Connection ~ 4900 1650
 Connection ~ 4900 1250
 Wire Wire Line
-	10050 6350 10050 6250
-Wire Wire Line
-	10050 6250 10050 6200
+	10050 6350 10050 6200
 Connection ~ 10050 6250
 Wire Wire Line
-	3050 1600 3050 1550
-Wire Wire Line
-	3050 1550 3050 1450
+	3050 1600 3050 1450
 Wire Wire Line
 	3100 6500 3100 6600
 Connection ~ 3100 6600
@@ -272,9 +250,7 @@ Wire Wire Line
 	3200 7250 3200 7200
 Connection ~ 3200 7200
 Wire Wire Line
-	3400 6500 3400 7150
-Wire Wire Line
-	3400 7150 3400 7250
+	3400 6500 3400 7250
 Connection ~ 3400 7150
 Connection ~ 3800 7150
 Wire Wire Line
@@ -303,9 +279,7 @@ Connection ~ 10550 6750
 Wire Notes Line
 	9000 7000 9000 5800
 Wire Wire Line
-	6600 4900 7000 4900
-Wire Wire Line
-	7000 4900 7300 4900
+	6600 4900 7300 4900
 Connection ~ 7000 4900
 Connection ~ 7750 2850
 Wire Wire Line
@@ -342,23 +316,13 @@ Connection ~ 10700 2050
 Connection ~ 10700 1350
 Connection ~ 10700 1250
 Wire Wire Line
-	8850 3150 9500 3150
-Wire Wire Line
-	9500 3150 9650 3150
-Wire Wire Line
-	9650 3150 9800 3150
-Wire Wire Line
-	9800 3150 9950 3150
-Wire Wire Line
-	9950 3150 10100 3150
+	8850 3150 10100 3150
 Connection ~ 7750 800 
 Connection ~ 7750 1300
 Wire Wire Line
 	7750 800  8850 800 
 Wire Wire Line
-	8850 800  8850 1200
-Wire Wire Line
-	8850 1200 8850 1300
+	8850 800  8850 1300
 Connection ~ 10950 2050
 Connection ~ 10950 1650
 Connection ~ 10950 1150
@@ -834,109 +798,109 @@ PLL Circuit
 Text Notes 7700 6950 0    60   ~ 0
 Crystal Circuit
 $Comp
-L GND #PWR5
+L GND #PWR01
 U 1 1 50954234
 P 3200 7250
-F 0 "#PWR5" H 3200 7250 30  0001 C CNN
+F 0 "#PWR01" H 3200 7250 30  0001 C CNN
 F 1 "GND" H 3200 7180 30  0001 C CNN
 	1    3200 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR6
+L GND #PWR02
 U 1 1 50954233
 P 3400 7250
-F 0 "#PWR6" H 3400 7250 30  0001 C CNN
+F 0 "#PWR02" H 3400 7250 30  0001 C CNN
 F 1 "GND" H 3400 7180 30  0001 C CNN
 	1    3400 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR03
 U 1 1 50954232
 P 8300 6800
-F 0 "#PWR10" H 8300 6800 30  0001 C CNN
+F 0 "#PWR03" H 8300 6800 30  0001 C CNN
 F 1 "GND" H 8300 6730 30  0001 C CNN
 	1    8300 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND #PWR04
 U 1 1 50954231
 P 6500 4400
-F 0 "#PWR11" H 6500 4400 30  0001 C CNN
+F 0 "#PWR04" H 6500 4400 30  0001 C CNN
 F 1 "GND" H 6500 4330 30  0001 C CNN
 	1    6500 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR12
+L GND #PWR05
 U 1 1 50954230
 P 6600 5350
-F 0 "#PWR12" H 6600 5350 30  0001 C CNN
+F 0 "#PWR05" H 6600 5350 30  0001 C CNN
 F 1 "GND" H 6600 5280 30  0001 C CNN
 	1    6600 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR06
 U 1 1 5095422F
 P 5100 1800
-F 0 "#PWR8" H 5100 1800 30  0001 C CNN
+F 0 "#PWR06" H 5100 1800 30  0001 C CNN
 F 1 "GND" H 5100 1730 30  0001 C CNN
 	1    5100 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND #PWR07
 U 1 1 5095422E
 P 7750 2900
-F 0 "#PWR13" H 7750 2900 30  0001 C CNN
+F 0 "#PWR07" H 7750 2900 30  0001 C CNN
 F 1 "GND" H 7750 2830 30  0001 C CNN
 	1    7750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR08
 U 1 1 5095422D
 P 3050 1600
-F 0 "#PWR4" H 3050 1600 30  0001 C CNN
+F 0 "#PWR08" H 3050 1600 30  0001 C CNN
 F 1 "GND" H 3050 1530 30  0001 C CNN
 	1    3050 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR09
 U 1 1 5095422C
 P 10250 6900
-F 0 "#PWR3" H 10250 6900 30  0001 C CNN
+F 0 "#PWR09" H 10250 6900 30  0001 C CNN
 F 1 "GND" H 10250 6830 30  0001 C CNN
 	1    10250 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR010
 U 1 1 5095422B
 P 10150 6300
-F 0 "#PWR2" H 10150 6300 30  0001 C CNN
+F 0 "#PWR010" H 10150 6300 30  0001 C CNN
 F 1 "GND" H 10150 6230 30  0001 C CNN
 	1    10150 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L GND #PWR011
 U 1 1 5095422A
 P 7350 6000
-F 0 "#PWR9" H 7350 6000 30  0001 C CNN
+F 0 "#PWR011" H 7350 6000 30  0001 C CNN
 F 1 "GND" H 7350 5930 30  0001 C CNN
 	1    7350 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L GND #PWR012
 U 1 1 50954229
 P 4200 6800
-F 0 "#PWR7" H 4200 6800 30  0001 C CNN
+F 0 "#PWR012" H 4200 6800 30  0001 C CNN
 F 1 "GND" H 4200 6730 30  0001 C CNN
 	1    4200 6800
 	1    0    0    -1  
@@ -951,10 +915,10 @@ F 1 "0.22uF" H 6050 1800 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR013
 U 1 1 50954227
 P 950 4300
-F 0 "#PWR1" H 950 4300 30  0001 C CNN
+F 0 "#PWR013" H 950 4300 30  0001 C CNN
 F 1 "GND" H 950 4230 30  0001 C CNN
 	1    950  4300
 	1    0    0    -1  
