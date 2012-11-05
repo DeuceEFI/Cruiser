@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 04 Nov 2012 06:21:28 PM EST
+PCBNEW-BOARD Version 1 date Mon 05 Nov 2012 08:35:34 AM EST
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -20,10 +20,10 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "Cruiser Dev Board"
-Date "4 nov 2012"
+Date "5 nov 2012"
 Rev "0.1-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: 3f99b6f451"
+Comment1 "git hash: 42168aa2bd"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -3226,7 +3226,7 @@ Po 56106 32665 350 350 80 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "git hash: 3f99b6f451"
+Te "git hash: 42168aa2bd"
 Po 56047 33567 300 300 60 0
 De 20 0 0 Normal
 $EndTEXTPCB
@@ -4184,7 +4184,7 @@ ZLayer 15
 ZAux 12 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 53209 40244 0
 ZCorner 56201 37252 0
 ZCorner 58901 37252 0
@@ -5996,7 +5996,7 @@ ZLayer 0
 ZAux 12 E
 ZClearance 200 T
 ZMinThickness 100
-ZOptions 1 16 F 300 124
+ZOptions 1 16 S 300 124
 ZCorner 53209 40244 0
 ZCorner 56201 37252 0
 ZCorner 58901 37252 0
