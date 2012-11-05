@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Nov 2012 06:21:53 PM EST
+EESchema Schematic File Version 2  date Mon 05 Nov 2012 08:30:18 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -10,7 +10,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "Cruiser Dev Board"
-Date "4 nov 2012"
+Date "5 nov 2012"
 Rev "0.1-alpha"
 Comp "Andy Goss"
 Comment1 "git hash: 3f99b6f451"
@@ -18,17 +18,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9850 4700 0    20   Input ~ 0
+Text GLabel 10450 4600 0    20   Input ~ 0
 PCB-GND
-Text Notes 9600 4850 0    60   ~ 0
+Text Notes 10200 4750 0    60   ~ 0
 Keychain Hole
 $Comp
 L CONN_1 H1
 U 1 1 5096BAD1
-P 10000 4700
-F 0 "H1" H 10080 4700 40  0000 L CNN
-F 1 "Hole" H 10000 4755 30  0001 C CNN
-	1    10000 4700
+P 10600 4600
+F 0 "H1" H 10680 4600 40  0000 L CNN
+F 1 "Hole" H 10600 4655 30  0001 C CNN
+	1    10600 4600
 	1    0    0    -1  
 $EndComp
 Text GLabel 10100 3150 2    20   Input ~ 0
@@ -42,7 +42,7 @@ PCB-GND
 Text Label 8850 2850 2    40   ~ 0
 USB-GND
 Wire Notes Line
-	9000 7000 11150 7000
+	8950 6850 11100 6850
 Wire Wire Line
 	7750 2900 7750 1750
 Wire Wire Line
@@ -58,17 +58,17 @@ Wire Wire Line
 	6100 4900 6100 4800
 Wire Wire Line
 	6100 4800 6000 4800
-Connection ~ 10250 6450
+Connection ~ 10200 6300
 Wire Wire Line
-	10250 6450 10250 6100
+	10200 6300 10200 5950
 Wire Wire Line
-	10250 6100 10200 6100
+	10200 5950 10150 5950
 Wire Wire Line
-	9700 5900 9700 6100
+	9650 5750 9650 5950
 Wire Notes Line
-	8900 6150 8900 7000
+	8850 6000 8850 6850
 Wire Wire Line
-	8000 6750 8600 6750
+	7950 6600 8550 6600
 Connection ~ 2900 7100
 Connection ~ 2900 6600
 Wire Wire Line
@@ -87,14 +87,14 @@ Connection ~ 4900 1700
 Wire Wire Line
 	5100 1650 4900 1650
 Wire Wire Line
-	10550 6550 10550 6450
+	10500 6400 10500 6300
 Wire Wire Line
-	10550 6450 10050 6450
+	10500 6300 10000 6300
 Connection ~ 6000 2100
 Connection ~ 6000 1700
 Wire Wire Line
 	1200 4100 1100 4100
-Connection ~ 10150 6300
+Connection ~ 10100 6150
 Wire Notes Line
 	7200 5000 7200 5450
 Wire Wire Line
@@ -115,9 +115,9 @@ Wire Wire Line
 	950  4300 950  4250
 Connection ~ 5100 1700
 Wire Wire Line
-	7350 6000 7350 5950
+	7300 5850 7300 5800
 Wire Wire Line
-	7350 5950 7050 5950
+	7300 5800 7000 5800
 Connection ~ 3050 1550
 Wire Wire Line
 	3500 6800 3500 6500
@@ -125,13 +125,13 @@ Connection ~ 6000 4800
 Wire Wire Line
 	1200 5000 1050 5000
 Wire Bus Line
-	7550 7000 7550 5850
+	7500 6850 7500 5700
 Wire Bus Line
-	7550 7000 6450 7000
+	7500 6850 6400 6850
 Wire Bus Line
-	6450 7000 6450 5850
+	6400 6850 6400 5700
 Wire Bus Line
-	6450 5850 7550 5850
+	6400 5700 7500 5700
 Wire Wire Line
 	7300 4400 7300 4000
 Wire Wire Line
@@ -144,13 +144,13 @@ Connection ~ 950  3850
 Connection ~ 6000 2700
 Wire Wire Line
 	4500 1700 4500 1600
-Connection ~ 7300 6350
+Connection ~ 7250 6200
 Wire Wire Line
 	4600 1700 4600 1600
-Connection ~ 10050 6350
-Connection ~ 10050 6450
-Connection ~ 10050 6550
-Connection ~ 9250 6350
+Connection ~ 10000 6200
+Connection ~ 10000 6300
+Connection ~ 10000 6400
+Connection ~ 9200 6200
 Connection ~ 5000 1700
 Connection ~ 4600 1700
 Connection ~ 4500 1700
@@ -165,17 +165,17 @@ Connection ~ 3400 6500
 Connection ~ 3200 6500
 Connection ~ 3100 6500
 Connection ~ 3000 6500
-Connection ~ 7050 5950
-Connection ~ 7050 6350
-Connection ~ 6800 6350
-Connection ~ 6800 6750
-Connection ~ 7300 6750
+Connection ~ 7000 5800
+Connection ~ 7000 6200
+Connection ~ 6750 6200
+Connection ~ 6750 6600
+Connection ~ 7250 6600
 Connection ~ 6000 4600
 Connection ~ 6000 4500
 Connection ~ 4200 6500
-Connection ~ 10050 6350
+Connection ~ 10000 6200
 Wire Wire Line
-	6800 6350 7300 6350
+	6750 6200 7250 6200
 Wire Wire Line
 	1100 3850 1100 4000
 Wire Wire Line
@@ -183,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1700 2800 1550
 Wire Wire Line
-	9100 6350 9250 6350
+	9050 6200 9200 6200
 Connection ~ 7000 4000
 Connection ~ 7300 4400
 Connection ~ 7000 4400
@@ -197,18 +197,18 @@ Connection ~ 3900 6500
 Connection ~ 4000 6500
 Connection ~ 4100 6500
 Wire Notes Line
-	8900 6150 7650 6150
-Connection ~ 8600 6350
-Connection ~ 8000 6350
+	8850 6000 7600 6000
+Connection ~ 8550 6200
+Connection ~ 7950 6200
 Connection ~ 1200 5000
 Wire Wire Line
-	10050 6250 10150 6250
+	10000 6100 10100 6100
 Wire Wire Line
-	10150 6250 10150 6300
+	10100 6100 10100 6150
 Wire Wire Line
 	4200 6500 4200 6800
 Wire Wire Line
-	10050 6700 10050 6550
+	10000 6550 10000 6400
 Wire Wire Line
 	6000 2700 6000 2100
 Connection ~ 7300 4000
@@ -240,8 +240,8 @@ Wire Notes Line
 Connection ~ 6600 4900
 Connection ~ 6100 4900
 Wire Wire Line
-	7300 5900 7300 5950
-Connection ~ 7300 5950
+	7250 5750 7250 5800
+Connection ~ 7250 5800
 Wire Wire Line
 	5100 1650 5100 1800
 Wire Wire Line
@@ -251,16 +251,16 @@ Wire Wire Line
 Wire Wire Line
 	1100 4000 1200 4000
 Wire Wire Line
-	10550 6750 10550 6850
+	10500 6600 10500 6700
 Wire Wire Line
-	10550 6850 10250 6850
+	10500 6700 10200 6700
 Wire Wire Line
 	4900 1650 4900 1700
 Connection ~ 4900 1650
 Connection ~ 4900 1250
 Wire Wire Line
-	10050 6350 10050 6200
-Connection ~ 10050 6250
+	10000 6200 10000 6050
+Connection ~ 10000 6100
 Wire Wire Line
 	3050 1600 3050 1450
 Wire Wire Line
@@ -281,26 +281,26 @@ Wire Wire Line
 Wire Wire Line
 	2650 1550 2650 1450
 Wire Wire Line
-	8300 6800 8300 6750
-Connection ~ 8300 6750
-Connection ~ 8600 6750
-Connection ~ 8000 6750
+	8250 6650 8250 6600
+Connection ~ 8250 6600
+Connection ~ 8550 6600
+Connection ~ 7950 6600
 Wire Notes Line
-	8900 7000 7650 7000
+	8850 6850 7600 6850
 Wire Notes Line
-	7650 7000 7650 6150
+	7600 6850 7600 6000
 Wire Wire Line
-	9200 6100 9200 6200
+	9150 5950 9150 6050
 Wire Wire Line
-	9200 6200 9250 6200
+	9150 6050 9200 6050
 Wire Wire Line
-	9250 6200 9250 6350
+	9200 6050 9200 6200
 Wire Wire Line
-	10250 6850 10250 6900
-Connection ~ 10550 6550
-Connection ~ 10550 6750
+	10200 6700 10200 6750
+Connection ~ 10500 6400
+Connection ~ 10500 6600
 Wire Notes Line
-	9000 7000 9000 5800
+	8950 6850 8950 5650
 Wire Wire Line
 	6600 4900 7300 4900
 Connection ~ 7000 4900
@@ -362,9 +362,9 @@ Wire Wire Line
 Wire Wire Line
 	10950 3050 10700 3050
 Wire Notes Line
-	9000 5800 11150 5800
+	8950 5650 11100 5650
 Wire Notes Line
-	11150 5800 11150 7000
+	11100 5650 11100 6850
 Text Notes 7200 3400 0    60   ~ 0
 USB to TTL Serial Communications
 Text Label 10950 3050 2    40   ~ 0
@@ -588,79 +588,79 @@ $EndComp
 $Comp
 L C C8
 U 1 1 50954248
-P 7050 6150
-F 0 "C8" H 7100 6250 50  0000 L CNN
-F 1 "0.22uF" H 7100 6050 50  0000 L CNN
-	1    7050 6150
+P 7000 6000
+F 0 "C8" H 7050 6100 50  0000 L CNN
+F 1 "0.22uF" H 7050 5900 50  0000 L CNN
+	1    7000 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C14
 U 1 1 50954247
-P 6800 6550
-F 0 "C14" H 6850 6650 50  0000 L CNN
-F 1 "6.8nF" H 6850 6450 50  0000 L CNN
-	1    6800 6550
+P 6750 6400
+F 0 "C14" H 6800 6500 50  0000 L CNN
+F 1 "6.8nF" H 6800 6300 50  0000 L CNN
+	1    6750 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C15
 U 1 1 50954246
-P 7300 6550
-F 0 "C15" H 7150 6650 50  0000 L CNN
-F 1 "680pF" H 7050 6450 50  0000 L CNN
-	1    7300 6550
+P 7250 6400
+F 0 "C15" H 7100 6500 50  0000 L CNN
+F 1 "680pF" H 7000 6300 50  0000 L CNN
+	1    7250 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R10
 U 1 1 50954245
-P 7050 6750
-F 0 "R10" V 7130 6750 50  0000 C CNN
-F 1 "3.3k" V 7050 6750 50  0000 C CNN
-	1    7050 6750
+P 7000 6600
+F 0 "R10" V 7080 6600 50  0000 C CNN
+F 1 "3.3k" V 7000 6600 50  0000 C CNN
+	1    7000 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C12
 U 1 1 50954244
-P 8000 6550
-F 0 "C12" H 8050 6650 50  0000 L CNN
-F 1 "20pF" H 8050 6450 50  0000 L CNN
-	1    8000 6550
+P 7950 6400
+F 0 "C12" H 8000 6500 50  0000 L CNN
+F 1 "20pF" H 8000 6300 50  0000 L CNN
+	1    7950 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L C C13
 U 1 1 50954243
-P 8600 6550
-F 0 "C13" H 8450 6650 50  0000 L CNN
-F 1 "20pF" H 8400 6450 50  0000 L CNN
-	1    8600 6550
+P 8550 6400
+F 0 "C13" H 8400 6500 50  0000 L CNN
+F 1 "20pF" H 8350 6300 50  0000 L CNN
+	1    8550 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L CRYSTAL X1
 U 1 1 50954242
-P 8300 6350
-F 0 "X1" H 8500 6400 60  0000 C CNN
-F 1 "16MHz" H 8300 6200 60  0000 C CNN
-	1    8300 6350
+P 8250 6200
+F 0 "X1" H 8450 6250 60  0000 C CNN
+F 1 "16MHz" H 8250 6050 60  0000 C CNN
+	1    8250 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 6350 2    40   BiDi ~ 0
+Text GLabel 8550 6200 2    40   BiDi ~ 0
 XTAL
-Text GLabel 8000 6350 0    40   BiDi ~ 0
+Text GLabel 7950 6200 0    40   BiDi ~ 0
 EXTAL
 Text GLabel 4000 6500 3    40   BiDi ~ 0
 EXTAL
 Text GLabel 4100 6500 3    40   BiDi ~ 0
 XTAL
-Text GLabel 7050 5950 0    40   BiDi ~ 0
+Text GLabel 7000 5800 0    40   BiDi ~ 0
 VSSPLL
-Text GLabel 7300 6750 2    40   BiDi ~ 0
+Text GLabel 7250 6600 2    40   BiDi ~ 0
 XFC
-Text GLabel 6800 6350 0    40   BiDi ~ 0
+Text GLabel 6750 6200 0    40   BiDi ~ 0
 VDDPLL
 Text GLabel 3900 6500 3    40   BiDi ~ 0
 VSSPLL
@@ -719,35 +719,35 @@ TX
 $Comp
 L R R2
 U 1 1 5095423D
-P 9950 6100
-F 0 "R2" V 10030 6100 50  0000 C CNN
-F 1 "10k" V 9950 6100 50  0000 C CNN
-	1    9950 6100
+P 9900 5950
+F 0 "R2" V 9980 5950 50  0000 C CNN
+F 1 "10k" V 9900 5950 50  0000 C CNN
+	1    9900 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R1
 U 1 1 5095423C
-P 9450 6100
-F 0 "R1" V 9530 6100 50  0000 C CNN
-F 1 "10k" V 9450 6100 50  0000 C CNN
-	1    9450 6100
+P 9400 5950
+F 0 "R1" V 9480 5950 50  0000 C CNN
+F 1 "10k" V 9400 5950 50  0000 C CNN
+	1    9400 5950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_3X2 P1
 U 1 1 5095423B
-P 9650 6500
-F 0 "P1" H 9650 6750 50  0000 C CNN
-F 1 "BDM" V 9650 6550 40  0000 C CNN
-	1    9650 6500
+P 9600 6350
+F 0 "P1" H 9600 6600 50  0000 C CNN
+F 1 "BDM" V 9600 6400 40  0000 C CNN
+	1    9600 6350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9250 6450
-NoConn ~ 9250 6550
-Text Label 9250 6350 2    40   ~ 0
+NoConn ~ 9200 6300
+NoConn ~ 9200 6400
+Text Label 9200 6200 2    40   ~ 0
 BKGD
-Text Label 10050 6450 0    40   ~ 0
+Text Label 10000 6300 0    40   ~ 0
 RESET
 NoConn ~ 2700 1700
 NoConn ~ 3200 1700
@@ -790,10 +790,10 @@ $EndComp
 $Comp
 L C C1
 U 1 1 50954237
-P 10250 6650
-F 0 "C1" H 10300 6750 50  0000 L CNN
-F 1 "0.1uF" H 10300 6550 50  0000 L CNN
-	1    10250 6650
+P 10200 6500
+F 0 "C1" H 10250 6600 50  0000 L CNN
+F 1 "0.1uF" H 10250 6400 50  0000 L CNN
+	1    10200 6500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -814,11 +814,11 @@ F 1 "LED" H 7000 4100 50  0000 C CNN
 	1    7000 4200
 	0    1    1    0   
 $EndComp
-Text Notes 9050 6950 0    60   ~ 0
+Text Notes 9000 6800 0    60   ~ 0
 BDM Connector
-Text Notes 6500 6950 0    60   ~ 0
+Text Notes 6450 6800 0    60   ~ 0
 PLL Circuit
-Text Notes 7700 6950 0    60   ~ 0
+Text Notes 7650 6800 0    60   ~ 0
 Crystal Circuit
 $Comp
 L GND #PWR01
@@ -841,10 +841,10 @@ $EndComp
 $Comp
 L GND #PWR03
 U 1 1 50954232
-P 8300 6800
-F 0 "#PWR03" H 8300 6800 30  0001 C CNN
-F 1 "GND" H 8300 6730 30  0001 C CNN
-	1    8300 6800
+P 8250 6650
+F 0 "#PWR03" H 8250 6650 30  0001 C CNN
+F 1 "GND" H 8250 6580 30  0001 C CNN
+	1    8250 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -895,28 +895,28 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5095422C
-P 10250 6900
-F 0 "#PWR09" H 10250 6900 30  0001 C CNN
-F 1 "GND" H 10250 6830 30  0001 C CNN
-	1    10250 6900
+P 10200 6750
+F 0 "#PWR09" H 10200 6750 30  0001 C CNN
+F 1 "GND" H 10200 6680 30  0001 C CNN
+	1    10200 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 5095422B
-P 10150 6300
-F 0 "#PWR010" H 10150 6300 30  0001 C CNN
-F 1 "GND" H 10150 6230 30  0001 C CNN
-	1    10150 6300
+P 10100 6150
+F 0 "#PWR010" H 10100 6150 30  0001 C CNN
+F 1 "GND" H 10100 6080 30  0001 C CNN
+	1    10100 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
 U 1 1 5095422A
-P 7350 6000
-F 0 "#PWR011" H 7350 6000 30  0001 C CNN
-F 1 "GND" H 7350 5930 30  0001 C CNN
-	1    7350 6000
+P 7300 5850
+F 0 "#PWR011" H 7300 5850 30  0001 C CNN
+F 1 "GND" H 7300 5780 30  0001 C CNN
+	1    7300 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -988,19 +988,19 @@ F 1 "1k" V 6350 4900 50  0000 C CNN
 	1    6350 4900
 	0    -1   -1   0   
 $EndComp
-Text Notes 6550 6300 0    25   ~ 0
+Text Notes 6500 6150 0    25   ~ 0
 CPU Pin 43
-Text Notes 7250 6850 0    25   ~ 0
+Text Notes 7200 6700 0    25   ~ 0
 CPU Pin 44
-Text Notes 6800 6050 0    25   ~ 0
+Text Notes 6750 5900 0    25   ~ 0
 CPU Pin 45
 $Comp
 L CONN_2 SW2
 U 1 1 50954215
-P 10900 6650
-F 0 "SW2" V 10850 6650 40  0000 C CNN
-F 1 "Reset" V 10950 6650 40  0000 C CNN
-	1    10900 6650
+P 10850 6500
+F 0 "SW2" V 10800 6500 40  0000 C CNN
+F 1 "Reset" V 10900 6500 40  0000 C CNN
+	1    10850 6500
 	1    0    0    -1  
 $EndComp
 Text Notes 2300 1400 0    40   ~ 0
@@ -1011,9 +1011,9 @@ Text GLabel 7750 800  0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 4900 1250 0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 9700 5900 2    40   Input ~ 0
+Text GLabel 9650 5750 2    40   Input ~ 0
 5vdc-cpu
-Text GLabel 10050 6700 0    40   Input ~ 0
+Text GLabel 10000 6550 0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 7750 1750 2    20   Input ~ 0
 PCB-GND
@@ -1027,9 +1027,9 @@ Text GLabel 6250 4350 1    20   Input ~ 0
 PCB-GND
 Text GLabel 6600 5300 2    20   Input ~ 0
 PCB-GND
-Text GLabel 7300 5900 2    20   Input ~ 0
+Text GLabel 7250 5750 2    20   Input ~ 0
 PCB-GND
-Text GLabel 8300 6750 1    20   Input ~ 0
+Text GLabel 8250 6600 1    20   Input ~ 0
 PCB-GND
 Text GLabel 4200 6750 2    20   Input ~ 0
 PCB-GND
@@ -1049,9 +1049,9 @@ Text GLabel 2650 1450 0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 3800 1700 1    40   Input ~ 0
 5vdc-cpu
-Text GLabel 10050 6200 0    20   Input ~ 0
+Text GLabel 10000 6050 0    20   Input ~ 0
 PCB-GND
-Text GLabel 10250 6850 0    20   Input ~ 0
+Text GLabel 10200 6700 0    20   Input ~ 0
 PCB-GND
 Text Notes 550  1000 0    60   ~ 0
 The board is powered completely by the USB port,\nso no external power supply is needed.
