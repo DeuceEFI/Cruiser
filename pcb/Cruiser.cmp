@@ -1,0 +1,297 @@
+Cmp-Mod V01 Created by CvPcb (2011-12-28 BZR 3254)-stable date = 11/8/2012 12:00:56 PM
+
+BeginCmp
+TimeStamp = /50954237;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B0E;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B13;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954225;
+Reference = C4;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095424B;
+Reference = C5;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954249;
+Reference = C6;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095424A;
+Reference = C7;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954248;
+Reference = C8;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954228;
+Reference = C9;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954224;
+Reference = C10;
+ValeurCmp = 0.22uF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B0D;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = c_tant_A;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954244;
+Reference = C12;
+ValeurCmp = 20pF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954243;
+Reference = C13;
+ValeurCmp = 20pF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954247;
+Reference = C14;
+ValeurCmp = 6.8nF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954246;
+Reference = C15;
+ValeurCmp = 680pF;
+IdModule  = c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954235;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B12;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B11;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5096BAD1;
+Reference = H1;
+ValeurCmp = Hole;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B0B;
+Reference = J1;
+ValeurCmp = USB-A;
+IdModule  = USB-A-PCB-TRACES;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095423B;
+Reference = P1;
+ValeurCmp = BDM;
+IdModule  = PIN_ARRAY_3X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095423C;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095423D;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095423E;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5095423F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954240;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954236;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954222;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954241;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B0C;
+Reference = R9;
+ValeurCmp = 22;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954245;
+Reference = R10;
+ValeurCmp = 3.3k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B10;
+Reference = R11;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B0F;
+Reference = R12;
+ValeurCmp = 470;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /509BDA7F;
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /509BDA70;
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954226;
+Reference = SW1;
+ValeurCmp = Load;
+IdModule  = switch-tact-DTS-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954215;
+Reference = SW2;
+ValeurCmp = Reset;
+IdModule  = switch-tact-DTS-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /509BDB19;
+Reference = T2;
+ValeurCmp = T2;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /509BDB21;
+Reference = T3;
+ValeurCmp = T3;
+IdModule  = wirewrap;
+EndCmp
+
+BeginCmp
+TimeStamp = /50968B14;
+Reference = U1;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954238;
+Reference = U2;
+ValeurCmp = MC9S12XDP512;
+IdModule  = PQFP112;
+EndCmp
+
+BeginCmp
+TimeStamp = /50954242;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = 2-SMD;
+EndCmp
+
+EndListe

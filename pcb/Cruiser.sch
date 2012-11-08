@@ -1,50 +1,62 @@
-EESchema Schematic File Version 2  date Mon 05 Nov 2012 08:34:14 AM EST
+EESchema Schematic File Version 2  date 11/8/2012 2:24:15 PM
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
 LIBS:Cruiser-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 1 1
 Title "Cruiser Dev Board"
-Date "5 nov 2012"
+Date "8 nov 2012"
 Rev "0.1-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: 42168aa2bd"
+Comment1 "git hash: 279b2cf8c8"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10450 4600 0    20   Input ~ 0
-PCB-GND
-Text Notes 10200 4750 0    60   ~ 0
-Keychain Hole
+Connection ~ 1200 3900
+Connection ~ 1200 3800
+Connection ~ 800  3300
+Connection ~ 800  3800
+Connection ~ 1050 3700
+Connection ~ 1050 3200
 $Comp
-L CONN_1 H1
-U 1 1 5096BAD1
-P 10600 4600
-F 0 "H1" H 10680 4600 40  0000 L CNN
-F 1 "Hole" H 10600 4655 30  0001 C CNN
-	1    10600 4600
-	1    0    0    -1  
+L CONN_1 T3
+U 1 1 509BDB21
+P 800 3150
+F 0 "T3" H 880 3150 40  0000 L CNN
+F 1 "T3" H 800 3205 30  0001 C CNN
+	1    800  3150
+	0    -1   -1   0   
 $EndComp
-Text GLabel 10100 3150 2    20   Input ~ 0
-PCB-GND
+$Comp
+L CONN_1 T2
+U 1 1 509BDB19
+P 1050 3050
+F 0 "T2" H 1130 3050 40  0000 L CNN
+F 1 "T2" H 1050 3105 30  0001 C CNN
+	1    1050 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 3700 1100 3700
+Wire Wire Line
+	1100 3700 1100 3800
+Wire Wire Line
+	1100 3800 1200 3800
 Connection ~ 8050 1200
 Connection ~ 8450 1200
 Connection ~ 8450 800 
 Connection ~ 8050 800 
-Text GLabel 8450 1200 2    20   Input ~ 0
-PCB-GND
-Text Label 8850 2850 2    40   ~ 0
-USB-GND
 Wire Notes Line
 	8950 6850 11100 6850
 Wire Wire Line
-	7750 2900 7750 1750
+	7750 1750 7750 2900
 Wire Wire Line
 	10950 1150 10700 1150
 Wire Wire Line
@@ -68,7 +80,7 @@ Wire Wire Line
 Wire Notes Line
 	8850 6000 8850 6850
 Wire Wire Line
-	7950 6600 8550 6600
+	8550 6600 7950 6600
 Connection ~ 2900 7100
 Connection ~ 2900 6600
 Wire Wire Line
@@ -110,9 +122,9 @@ Wire Wire Line
 Wire Wire Line
 	6100 4350 6500 4350
 Wire Wire Line
-	950  3850 1100 3850
+	700  3850 1000 3850
 Wire Wire Line
-	950  4300 950  4250
+	700  4300 700  4250
 Connection ~ 5100 1700
 Wire Wire Line
 	7300 5850 7300 5800
@@ -140,7 +152,7 @@ Connection ~ 3050 1450
 Connection ~ 2650 1450
 Wire Wire Line
 	2900 1700 2900 1550
-Connection ~ 950  3850
+Connection ~ 700  3850
 Connection ~ 6000 2700
 Wire Wire Line
 	4500 1700 4500 1600
@@ -175,9 +187,9 @@ Connection ~ 6000 4500
 Connection ~ 4200 6500
 Connection ~ 10000 6200
 Wire Wire Line
-	6750 6200 7250 6200
+	7250 6200 6750 6200
 Wire Wire Line
-	1100 3850 1100 4000
+	1000 3850 1000 4000
 Wire Wire Line
 	1100 4100 1100 4250
 Wire Wire Line
@@ -212,13 +224,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 2700 6000 2100
 Connection ~ 7300 4000
-Connection ~ 950  4250
+Connection ~ 700  4250
 Wire Wire Line
 	6600 5100 6600 4900
 Connection ~ 6600 5100
 Connection ~ 6600 5300
 Wire Wire Line
-	1100 4250 950  4250
+	1100 4250 700  4250
 Wire Wire Line
 	6000 4600 6100 4600
 Wire Wire Line
@@ -245,11 +257,11 @@ Connection ~ 7250 5800
 Wire Wire Line
 	5100 1650 5100 1800
 Wire Wire Line
-	6000 1700 5000 1700
+	5000 1700 6000 1700
 Wire Wire Line
 	2900 1550 3050 1550
 Wire Wire Line
-	1100 4000 1200 4000
+	1000 4000 1200 4000
 Wire Wire Line
 	10500 6600 10500 6700
 Wire Wire Line
@@ -259,10 +271,10 @@ Wire Wire Line
 Connection ~ 4900 1650
 Connection ~ 4900 1250
 Wire Wire Line
-	10000 6200 10000 6050
+	10000 6050 10000 6200
 Connection ~ 10000 6100
 Wire Wire Line
-	3050 1600 3050 1450
+	3050 1450 3050 1600
 Wire Wire Line
 	3100 6500 3100 6600
 Connection ~ 3100 6600
@@ -273,7 +285,7 @@ Wire Wire Line
 	3200 7250 3200 7200
 Connection ~ 3200 7200
 Wire Wire Line
-	3400 6500 3400 7250
+	3400 7250 3400 6500
 Connection ~ 3400 7150
 Connection ~ 3800 7150
 Wire Wire Line
@@ -365,6 +377,49 @@ Wire Notes Line
 	8950 5650 11100 5650
 Wire Notes Line
 	11100 5650 11100 6850
+Wire Wire Line
+	1200 3900 1050 3900
+Wire Wire Line
+	1050 3900 1050 3800
+Wire Wire Line
+	1050 3800 800  3800
+$Comp
+L R R13
+U 1 1 509BDA7F
+P 800 3550
+F 0 "R13" V 880 3550 50  0000 C CNN
+F 1 "1k" V 800 3550 50  0000 C CNN
+	1    800  3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R14
+U 1 1 509BDA70
+P 1050 3450
+F 0 "R14" V 1130 3450 50  0000 C CNN
+F 1 "1k" V 1050 3450 50  0000 C CNN
+	1    1050 3450
+	-1   0    0    1   
+$EndComp
+Text GLabel 10450 4600 0    20   Input ~ 0
+PCB-GND
+Text Notes 10200 4750 0    60   ~ 0
+Keychain Hole
+$Comp
+L CONN_1 H1
+U 1 1 5096BAD1
+P 10600 4600
+F 0 "H1" H 10680 4600 40  0000 L CNN
+F 1 "Hole" H 10600 4655 30  0001 C CNN
+	1    10600 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 3150 2    20   Input ~ 0
+PCB-GND
+Text GLabel 8450 1200 2    20   Input ~ 0
+PCB-GND
+Text Label 8850 2850 2    40   ~ 0
+USB-GND
 Text Notes 7200 3400 0    60   ~ 0
 USB to TTL Serial Communications
 Text Label 10950 3050 2    40   ~ 0
@@ -520,8 +575,6 @@ NoConn ~ 1200 4500
 NoConn ~ 1200 4400
 NoConn ~ 1200 4300
 NoConn ~ 1200 4200
-NoConn ~ 1200 3900
-NoConn ~ 1200 3800
 NoConn ~ 1200 3700
 NoConn ~ 1200 3600
 NoConn ~ 1200 3500
@@ -563,7 +616,7 @@ NoConn ~ 6000 5100
 NoConn ~ 6000 5200
 NoConn ~ 6000 5300
 NoConn ~ 6000 5400
-Text Notes 600  4250 1    40   ~ 0
+Text Notes 1050 4450 2    40   ~ 0
 X7R Ceramic
 Text Notes 5600 1800 0    40   ~ 0
 X7R Ceramic
@@ -940,10 +993,10 @@ $EndComp
 $Comp
 L GND #PWR013
 U 1 1 50954227
-P 950 4300
-F 0 "#PWR013" H 950 4300 30  0001 C CNN
-F 1 "GND" H 950 4230 30  0001 C CNN
-	1    950  4300
+P 700 4300
+F 0 "#PWR013" H 700 4300 30  0001 C CNN
+F 1 "GND" H 700 4230 30  0001 C CNN
+	1    700  4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -962,10 +1015,10 @@ Load SW1:\nOpen = Run\nClosed = Load
 $Comp
 L C C4
 U 1 1 50954225
-P 950 4050
-F 0 "C4" H 1000 4150 50  0000 L CNN
-F 1 "0.22uF" H 1000 3950 50  0000 L CNN
-	1    950  4050
+P 700 4050
+F 0 "C4" H 600 4150 40  0000 L CNN
+F 1 "0.22uF" H 450 3950 40  0000 L CNN
+	1    700  4050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1041,7 +1094,7 @@ Text GLabel 3800 7150 2    40   Input ~ 0
 5vdc-cpu
 Text GLabel 2900 7100 0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 950  4250 0    20   Input ~ 0
+Text GLabel 700  4250 0    20   Input ~ 0
 PCB-GND
 Text GLabel 3050 1550 2    20   Input ~ 0
 PCB-GND
