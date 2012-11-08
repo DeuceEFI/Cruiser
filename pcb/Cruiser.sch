@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/8/2012 2:38:14 PM
+EESchema Schematic File Version 2  date 11/8/2012 3:00:16 PM
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -518,11 +518,11 @@ D-
 Text Label 7800 1650 0    25   ~ 0
 D+
 $Comp
-L R R9
+L R L1
 U 1 1 50968B0C
 P 7750 1050
-F 0 "R9" V 7830 1050 50  0000 C CNN
-F 1 "22" V 7750 1050 50  0000 C CNN
+F 0 "L1" V 7830 1050 50  0000 C CNN
+F 1 "40" V 7750 1050 50  0000 C CNN
 	1    7750 1050
 	-1   0    0    1   
 $EndComp

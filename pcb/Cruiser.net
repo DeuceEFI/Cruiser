@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/8/2012 12:00:56 PM
+# EESchema Netlist Version 1.1 created  11/8/2012 3:01:35 PM
 (
  ( /50954237 c_1206 C1 0.1uF
   ( 1 /RESET )
@@ -81,6 +81,10 @@
   ( 3 /D+ )
   ( 4 PCB-GND )
  )
+ ( /50968B0C c_0805 L1 40
+  ( 1 /Vbus )
+  ( 2 5vdc-cpu )
+ )
  ( /5095423B PIN_ARRAY_3X2 P1 BDM
   ( 1 /BKGD )
   ( 2 PCB-GND )
@@ -120,10 +124,6 @@
  ( /50954241 SM1206 R8 1k
   ( 1 N-000079 )
   ( 2 N-000080 )
- )
- ( /50968B0C SM1206 R9 22
-  ( 1 /Vbus )
-  ( 2 5vdc-cpu )
  )
  ( /50954245 SM1206 R10 3.3k
   ( 1 N-000086 )
@@ -411,6 +411,12 @@ $component D3
  LED-1206
  LEDV
 $endlist
+$component L1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
 $component R1
  R?
  SM0603
@@ -454,12 +460,6 @@ $component R7
  R?-*
 $endlist
 $component R8
- R?
- SM0603
- SM0805
- R?-*
-$endlist
-$component R9
  R?
  SM0603
  SM0805

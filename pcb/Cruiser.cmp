@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-12-28 BZR 3254)-stable date = 11/8/2012 12:00:56 PM
+Cmp-Mod V01 Created by CvPcb (2011-12-28 BZR 3254)-stable date = 11/8/2012 3:01:35 PM
 
 BeginCmp
 TimeStamp = /50954237;
@@ -141,6 +141,13 @@ IdModule  = USB-A-PCB-TRACES;
 EndCmp
 
 BeginCmp
+TimeStamp = /50968B0C;
+Reference = L1;
+ValeurCmp = 40;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5095423B;
 Reference = P1;
 ValeurCmp = BDM;
@@ -200,13 +207,6 @@ BeginCmp
 TimeStamp = /50954241;
 Reference = R8;
 ValeurCmp = 1k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /50968B0C;
-Reference = R9;
-ValeurCmp = 22;
 IdModule  = SM1206;
 EndCmp
 
