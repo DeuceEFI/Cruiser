@@ -1,20 +1,19 @@
-EESchema Schematic File Version 2  date 11/8/2012 3:15:47 PM
+EESchema Schematic File Version 2  date Fri 09 Nov 2012 10:34:07 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
 LIBS:Cruiser-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-encoding utf-8
 Sheet 1 1
 Title "Cruiser Dev Board"
 Date "8 nov 2012"
 Rev "0.1-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: dba011e793"
+Comment1 "git hash: 6a6c438f88"
 Comment2 ""
 Comment3 ""
 Comment4 ""
