@@ -1,6 +1,6 @@
 # Cruiser Development Board for FreeEMS
 
-JAG 11/04/2012 0132 EST (GMT-0500)
+JAG 11/15/2012 0506 EST (GMT-0500)
 
 ### Introduction
 
@@ -19,8 +19,9 @@ Core specs:
  * Load/Run LED.
  * Reset momentary switch.
  * Load momentary switch.
+ * Port T0-2 outputs with 1k current limiting resistors.
 
-PCB size is to be as small as possible and to be powered by the USB bus, to allow for easy transport for development work.  Current design is a 25mm x 50mm PCB which has a cutout to allow the end of the PCB to be inserted into a USB-A female host socket.  It is recommended that the PCB be plugged into a USB-A female to USB-A male extension cable to reduce the stress on the USB connector on the host computer.
+PCB size is to be as small as possible and to be powered by the USB bus, to allow for easy transport for development work.  Current design is a 50mm x 50mm PCB which has a cutout to allow the end of the PCB to be inserted into a USB-A female host socket.  It is recommended that the PCB be plugged into a USB-A female to USB-A male extension cable to reduce the stress on the USB connector on the host computer.
  
 ### Status
 
@@ -28,6 +29,8 @@ This PCB is in active development, please refrain from printing circuit boards a
 This design is untested and should NOT be considered a usable design.
 
 I will update this status as work progresses.
+
+#### Update 11/15/2012: The first 10 version 0.1-alpha PCBs have been ordered from seeedstudio Fusion PCB service for testing the design.
 
 ### Changes
 
