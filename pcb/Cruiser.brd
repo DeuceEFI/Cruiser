@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 06 Dec 2012 03:18:40 AM EST
+PCBNEW-BOARD Version 1 date Thu 06 Dec 2012 03:27:00 AM EST
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -21,9 +21,9 @@ $SHEETDESCR
 Sheet A4 11700 8267
 Title "Cruiser Dev Board"
 Date "6 dec 2012"
-Rev "0.1-alpha"
+Rev "0.2-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: e4585f148a"
+Comment1 "git hash: 5f710849ba"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -3525,12 +3525,12 @@ Po 0 63437 30016 63437 34165 10
 De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
-Te "Version 0.1-alpha"
+Te "Version 0.2-alpha"
 Po 55638 33177 350 350 80 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "git hash: e4585f148a"
+Te "git hash: 5f710849ba"
 Po 55551 33791 300 300 60 0
 De 20 0 0 Normal
 $EndTEXTPCB
