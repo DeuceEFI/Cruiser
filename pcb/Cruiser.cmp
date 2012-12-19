@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Mon 12 Nov 2012 01:15:03 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 19 Dec 2012 01:29:48 PM EST
 
 BeginCmp
 TimeStamp = /50954237;
@@ -155,6 +155,13 @@ IdModule  = PIN_ARRAY_3X2;
 EndCmp
 
 BeginCmp
+TimeStamp = /50D20649;
+Reference = P2;
+ValeurCmp = GND-T0-T1-T2-T3;
+IdModule  = Cruiser_Header_STRIP_5;
+EndCmp
+
+BeginCmp
 TimeStamp = /5095423C;
 Reference = R1;
 ValeurCmp = 10k;
@@ -271,34 +278,6 @@ TimeStamp = /50954215;
 Reference = SW2;
 ValeurCmp = Reset;
 IdModule  = switch-tact-DTS-6;
-EndCmp
-
-BeginCmp
-TimeStamp = /50A13AA2;
-Reference = T0;
-ValeurCmp = T0;
-IdModule  = wirewrap;
-EndCmp
-
-BeginCmp
-TimeStamp = /50A13A7E;
-Reference = T1;
-ValeurCmp = T1;
-IdModule  = wirewrap;
-EndCmp
-
-BeginCmp
-TimeStamp = /509BDB19;
-Reference = T2;
-ValeurCmp = T2;
-IdModule  = wirewrap;
-EndCmp
-
-BeginCmp
-TimeStamp = /509BDB21;
-Reference = T3;
-ValeurCmp = T3;
-IdModule  = wirewrap;
 EndCmp
 
 BeginCmp
