@@ -7,7 +7,7 @@
 * Add D shaped pads to allow LEDs to be soldered on/off.
 * Make the USB-A pads wider.
 * Make the USB-A end 12mm wide, it is too narrow.
-* Add a 3mm hole by BDM to allow stacking multiple Cruisers together.
+* Add 1.6mm plated through holes on the beveled edges to allow stacking multiple Cruisers together.
 
 ----------
 
