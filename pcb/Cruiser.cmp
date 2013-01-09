@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 08 Jan 2013 10:47:45 PM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 09 Jan 2013 10:10:00 AM EST
 
 BeginCmp
 TimeStamp = /50954237;
@@ -278,6 +278,27 @@ TimeStamp = /50954215;
 Reference = SW2;
 ValeurCmp = Reset;
 IdModule  = switch-tact-DTS-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ED86C2;
+Reference = SW3;
+ValeurCmp = SOLDER_BRIDGE;
+IdModule  = Solder-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ED873D;
+Reference = SW4;
+ValeurCmp = SOLDER_BRIDGE;
+IdModule  = Solder-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ED87A1;
+Reference = SW5;
+ValeurCmp = SOLDER_BRIDGE;
+IdModule  = Solder-Bridge;
 EndCmp
 
 BeginCmp

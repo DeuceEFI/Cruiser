@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Tue 08 Jan 2013 11:08:39 PM EST
+EESchema-LIBRARY Version 2.3  Date: Wed 09 Jan 2013 10:09:29 AM EST
 #
 # C
 #
@@ -321,6 +321,19 @@ DRAW
 S -40 150 40 -150 0 1 12 N
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Solder_Bridge
+#
+DEF Solder_Bridge SW? 0 40 N N 1 F N
+F0 "SW?" 100 150 50 H V C CNN
+F1 "Solder_Bridge" -100 0 40 V V C CNN
+DRAW
+P 4 0 1 0  -40 -10  -40 -100  40 -100  40 -10 F
+P 4 0 1 0  -40 10  -40 100  40 100  40 10 F
+X 1 1 0 200 100 D 60 60 1 1 P
+X 1 2 0 -200 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
