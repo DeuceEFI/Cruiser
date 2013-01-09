@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 09 Jan 2013 10:10:00 AM EST
+# EESchema Netlist Version 1.1 created  Wed 09 Jan 2013 12:50:51 PM EST
 (
  ( /50954237 c_1206 C1 0.1uF
   ( 1 /RESET )
@@ -75,7 +75,7 @@
  ( /5096BAD1 WireConnection H1 Hole
   ( 1 GND )
  )
- ( /50968B0B USB-A-PCB-TRACES J1 USB-A
+ ( /50968B0B USB_A-CNC-1001-010-01001 J1 USB-A
   ( 1 /Vbus )
   ( 2 /D- )
   ( 3 /D+ )

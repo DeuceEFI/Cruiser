@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 09 Jan 2013 10:10:00 AM EST
+Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 09 Jan 2013 12:50:51 PM EST
 
 BeginCmp
 TimeStamp = /50954237;
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /50968B0B;
 Reference = J1;
 ValeurCmp = USB-A;
-IdModule  = USB-A-PCB-TRACES;
+IdModule  = USB_A-CNC-1001-010-01001;
 EndCmp
 
 BeginCmp
