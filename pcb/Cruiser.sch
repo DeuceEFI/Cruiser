@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Jan 2013 10:09:29 AM EST
+EESchema Schematic File Version 2  date Wed 09 Jan 2013 11:55:35 AM EST
 LIBS:opto
 LIBS:Jaguar
 LIBS:power
@@ -13,7 +13,7 @@ Title "Cruiser Dev Board"
 Date "9 jan 2013"
 Rev "0.3-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: 7c27a10510"
+Comment1 "git hash: ca961ae3e7"
 Comment2 ""
 Comment3 ""
 Comment4 ""
