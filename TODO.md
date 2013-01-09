@@ -1,12 +1,8 @@
 # To Do List
 
-## JAG 01/08/2013 2311 EST (GMT-0500)
+## JAG 01/09/2013 1354 EST (GMT-0500)
 
 ### Things left to change For Cruiser 0.3-alpha PCB based on what has been learned from 0.2-alpha PCB:
-
-* Add D shaped pads to allow LEDs to be soldered on/off.
-
-
 
 
 ----------
@@ -19,3 +15,6 @@
 * Add 1.6mm plated through holes on the beveled edges to allow stacking multiple Cruisers together.
 * Make the USB-A pads wider.
 * Make the USB-A end 12mm wide, it is too narrow.
+* Add D shaped pads to allow LEDs to be soldered on/off.
+* Change from USB-A PCB traces to USB-A shielded connector.
+
