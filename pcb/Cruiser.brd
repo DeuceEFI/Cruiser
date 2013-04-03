@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 02 Apr 2013 07:14:43 PM EDT
+PCBNEW-BOARD Version 1 date Tue 02 Apr 2013 08:14:30 PM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -20,10 +20,10 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title "Cruiser Dev Board"
-Date "2 apr 2013"
+Date "3 apr 2013"
 Rev "0.3-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: 25275c1c5d"
+Comment1 "git hash: a64015f7f7"
 Comment2 ""
 Comment3 ""
 Comment4 ""
