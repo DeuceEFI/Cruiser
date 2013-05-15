@@ -1,9 +1,11 @@
 # To Do List
 
-## JAG 01/09/2013 1354 EST (GMT-0500)
+## JAG 05/15/2013 1430 EST (GMT-0500)
 
-### Things left to change For Cruiser 0.3-alpha PCB based on what has been learned from 0.2-alpha PCB:
+### Things left to change For Cruiser 0.4-alpha PCB based on what has been learned from 0.3-alpha PCB:
 
+* Stagger BDM pads for a nice tight fit.
+* Mark LED anode more clearly on the silkscreen so it can be seen while placing SMD LED (green dot in lens) on the board.
 
 ----------
 
