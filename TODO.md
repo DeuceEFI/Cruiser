@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/15/2013 1534 EST (GMT-0500)
+## JAG 05/15/2013 1536 EST (GMT-0500)
 
 ### Things left to change For Cruiser 0.4-alpha PCB based on what has been learned from 0.3-alpha PCB:
 
@@ -13,6 +13,7 @@
 
 * Added RX/TX to silkscreen next to FTDI LEDs. - DONE 05/15/2013
 * Added CEL to silkscreen next to D1. - DONE 05/15/2013
+* Decreased BDM pad holes from 0.0394" to 0.0350". - DONE 05/15/2013
 
 ----------
 
