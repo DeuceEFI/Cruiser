@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 22 May 2013 08:49:42 AM EDT
+PCBNEW-BOARD Version 1 date Wed 22 May 2013 08:59:45 AM EDT
 
 # Created by Pcbnew(2010-03-14)-final
 
@@ -9,7 +9,7 @@ EnabledLayers 1FFF8001
 Links 104
 NoConn 0
 Di 42911 23766 64727 40459
-Ndraw 66
+Ndraw 67
 Ntrack 776
 Nzone 0
 BoardThickness 630
@@ -3472,6 +3472,11 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  USB_A-CNC-1001-010-01001
 $TEXTPCB
+Te "by"
+Po 52626 28819 400 400 70 0
+De 20 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "1"
 Po 46602 24783 400 400 70 0
 De 21 1 0 Normal
@@ -3752,17 +3757,17 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "Version 0.4-alpha"
-Po 56189 33142 350 350 70 0
+Po 56181 33067 350 350 70 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "Git: xxxxxxxxxx"
-Po 52992 33689 300 300 50 0
+Po 50401 36520 300 300 50 3600
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "2012"
-Po 52122 28795 400 400 80 0
+Te "Copyright 2012-2013"
+Po 56433 33650 300 300 70 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -5342,7 +5347,7 @@ ZLayer 15
 ZAux 16 E
 ZClearance 250 T
 ZMinThickness 100
-ZOptions 1 16 F 375 124
+ZOptions 1 16 S 375 124
 ZCorner 53209 40244 0
 ZCorner 56201 37252 0
 ZCorner 58901 37252 0
@@ -6893,7 +6898,7 @@ ZLayer 0
 ZAux 16 E
 ZClearance 250 T
 ZMinThickness 100
-ZOptions 1 16 F 375 124
+ZOptions 1 16 S 375 124
 ZCorner 53209 40244 0
 ZCorner 56201 37252 0
 ZCorner 58901 37252 0
