@@ -1,6 +1,6 @@
 # To Do List
 
-## JAG 05/15/2013 1536 EST (GMT-0500)
+## JAG 08/02/2014 1427 EDT (GMT-0400)
 
 ### Things left to change For Cruiser 0.4-alpha PCB based on what has been learned from 0.3-alpha PCB:
 
@@ -11,6 +11,8 @@
 ----------
 ### TODO 0.4-alpha Changes Completed:
 
+* Revised BOM to show different color LEDs, yellow for Port A6 (D1), red for Tx (D3) and green for Rx (D2). - DONE 08/02/2014
+* Revised BOM to correct C14 to be 6800pF (6.8nF) to match the 6.8nF shown in the schematic. - DONE 08/02/0214
 * Added RX/TX to silkscreen next to FTDI LEDs. - DONE 05/15/2013
 * Added CEL to silkscreen next to D1. - DONE 05/15/2013
 * Decreased BDM pad holes from 0.0394" to 0.0350". - DONE 05/15/2013

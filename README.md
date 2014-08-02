@@ -1,6 +1,6 @@
 # Cruiser Development Board for FreeEMS
 
-JAG 11/15/2012 0506 EST (GMT-0500)
+JAG 8/2/2014 1422 EDT (GMT-0400)
 
 ### Introduction
 
@@ -13,24 +13,26 @@ Please see forum.diyefi.org for the most up to date information and links for th
 Core specs:
 
  * The least amount of parts to make a functional development board.
+ * Freescale MC9S12XDP512MAL processor with 16MHz crystal.
  * FTDI USB (bus powered) communications (USB-A board edge connector).
  * Rx/Tx LEDs for USB communications troubleshooting.
- * Freescale MC9S12XDP512MAL processor with 16MHz crystal.
- * Load/Run LED.
+ * Load/Run LED connected to Port A6.
+ * Solder bridge pads for enabling LEDs.
  * Reset momentary switch.
  * Load momentary switch.
- * Port T0-2 outputs with 1k current limiting resistors.
+ * Port T0-3 inputs/outputs with 1k current limiting resistors.
 
-PCB size is to be as small as possible and to be powered by the USB bus, to allow for easy transport for development work.  Current design is a 50mm x 50mm PCB which has a cutout to allow the end of the PCB to be inserted into a USB-A female host socket.  It is recommended that the PCB be plugged into a USB-A female to USB-A male extension cable to reduce the stress on the USB connector on the host computer.
+PCB size is to be as small as possible and to be powered by the USB bus, to allow for easy transport for development work.  The current design is a 50mm x 50mm PCB (shaped like a key) which has an USB-A male connector.  There are solder bridge pads on the bottom layer to allow the LEDs to be connected or not, depending on whether the user would like the LEDs for troubleshooting or stealth.
  
 ### Status
 
-This PCB is in active development, please refrain from printing circuit boards and expecting them to work.
-This design is untested and should NOT be considered a usable design.
+This design has been tested and is considered to be a usable design.
 
 I will update this status as work progresses.
 
 #### Update 11/15/2012: The first 10 version 0.1-alpha PCBs have been ordered from seeedstudio Fusion PCB service for testing the design.
+
+#### Update 8/2/2014: I now stock the 0.3-alpha PCBs and components, they can be ordered from http://www.coolefi.com
 
 ### Changes
 
