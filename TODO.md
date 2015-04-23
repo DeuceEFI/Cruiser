@@ -1,12 +1,12 @@
 # To Do List
 
-## JAG 08/02/2014 1427 EDT (GMT-0400)
+## JAG 04/22/2015 2129 EDT (GMT-0400)
 
 ### Things left to change For Cruiser 0.4-alpha PCB based on what has been learned from 0.3-alpha PCB:
 
 * Stagger BDM pads for a nice tight fit.
 * Mark LED anode more clearly on the silkscreen so it can be seen while placing SMD LED (green dot in lens) on the board.
-
+* Add a micro USB connector above the RX/TX LEDs, move the angled PCB edge from near the Reset button to meet up with the sharp 90 degree corner above D3.
 
 ----------
 ### TODO 0.4-alpha Changes Completed:
