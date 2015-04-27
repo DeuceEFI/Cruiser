@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPCB (2010-03-14)-final date = Wed 09 Jan 2013 12:50:51 PM EST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 27 Apr 2015 07:24:37 AM EDT
+
+BeginCmp
+TimeStamp = /553E1BE1;
+Reference = A7;
+ValeurCmp = PA7;
+IdModule  = WireConnection;
+EndCmp
 
 BeginCmp
 TimeStamp = /50954237;
@@ -141,6 +148,13 @@ IdModule  = USB_A-CNC-1001-010-01001;
 EndCmp
 
 BeginCmp
+TimeStamp = /553A377B;
+Reference = J2;
+ValeurCmp = USB_B-MICRO;
+IdModule  = USB-B-micro;
+EndCmp
+
+BeginCmp
 TimeStamp = /50968B0C;
 Reference = L1;
 ValeurCmp = 40;
@@ -159,6 +173,20 @@ TimeStamp = /50D20649;
 Reference = P2;
 ValeurCmp = GND-T0-T1-T2-T3;
 IdModule  = Cruiser_Header_STRIP_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /553BE11D;
+Reference = P3;
+ValeurCmp = A/D;
+IdModule  = pin_strip_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553C1C3C;
+Reference = P4;
+ValeurCmp = T4-T5-T6-T7;
+IdModule  = pin_strip_2x2;
 EndCmp
 
 BeginCmp
