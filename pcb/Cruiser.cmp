@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 27 Apr 2015 07:24:37 AM EDT
-
-BeginCmp
-TimeStamp = /553E1BE1;
-Reference = A7;
-ValeurCmp = PA7;
-IdModule  = WireConnection;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 27 Apr 2015 10:31:00 AM EDT
 
 BeginCmp
 TimeStamp = /50954237;
@@ -169,10 +162,10 @@ IdModule  = PIN_ARRAY_3X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /50D20649;
+TimeStamp = /553E3A5F;
 Reference = P2;
-ValeurCmp = GND-T0-T1-T2-T3;
-IdModule  = Cruiser_Header_STRIP_5;
+ValeurCmp = Port T;
+IdModule  = pin_strip_4x2;
 EndCmp
 
 BeginCmp
@@ -183,10 +176,31 @@ IdModule  = pin_strip_4x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /553C1C3C;
+TimeStamp = /553E4424;
 Reference = P4;
-ValeurCmp = T4-T5-T6-T7;
-IdModule  = pin_strip_2x2;
+ValeurCmp = PA7-GND;
+IdModule  = pin_strip_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E2E31;
+Reference = P5;
+ValeurCmp = VRH;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E2E75;
+Reference = P6;
+ValeurCmp = CPU-5v;
+IdModule  = WireConnection;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E3467;
+Reference = PK4;
+ValeurCmp = PK4;
+IdModule  = WireConnection;
 EndCmp
 
 BeginCmp
@@ -267,34 +281,6 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /509BDA7F;
-Reference = R13;
-ValeurCmp = 1k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /509BDA70;
-Reference = R14;
-ValeurCmp = 1k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /50A13A42;
-Reference = R15;
-ValeurCmp = 1k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /50A13AA3;
-Reference = R16;
-ValeurCmp = 1k;
-IdModule  = SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /50954226;
 Reference = SW1;
 ValeurCmp = Load;
@@ -325,6 +311,20 @@ EndCmp
 BeginCmp
 TimeStamp = /50ED87A1;
 Reference = SW5;
+ValeurCmp = SOLDER_BRIDGE;
+IdModule  = Solder-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E294D;
+Reference = SW6;
+ValeurCmp = SOLDER_BRIDGE;
+IdModule  = Solder-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E24FD;
+Reference = SW7;
 ValeurCmp = SOLDER_BRIDGE;
 IdModule  = Solder-Bridge;
 EndCmp

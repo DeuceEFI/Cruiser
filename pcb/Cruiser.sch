@@ -29,49 +29,8 @@ Connection ~ 10950 3350
 Connection ~ 10950 2950
 Connection ~ 10950 750 
 Connection ~ 10950 1250
-Connection ~ 1050 2200
-Connection ~ 950  2200
-Connection ~ 850  2200
-Connection ~ 750  2200
-Wire Wire Line
-	750  2200 750  2500
-Wire Wire Line
-	750  2500 600  2500
-Wire Wire Line
-	600  2500 600  3000
-Wire Wire Line
-	600  3000 650  3000
-Wire Wire Line
-	650  3000 650  3300
-Wire Wire Line
-	950  2200 950  2650
-Wire Wire Line
-	950  2650 900  2650
-Wire Wire Line
-	900  2650 900  3200
-Connection ~ 1050 2650
-Connection ~ 900  3200
-Connection ~ 1050 3150
 Connection ~ 1200 3600
 Connection ~ 1200 3700
-Connection ~ 900  3700
-Connection ~ 650  3800
-Wire Wire Line
-	1050 3150 1050 3600
-Wire Wire Line
-	1050 3600 1200 3600
-Connection ~ 750  2650
-Connection ~ 750  3150
-Wire Wire Line
-	750  3750 1100 3750
-Wire Wire Line
-	750  3750 750  3150
-Wire Wire Line
-	650  3800 1050 3800
-Wire Wire Line
-	1050 3800 1050 3900
-Wire Wire Line
-	1050 3900 1200 3900
 Wire Notes Line
 	11100 5650 11100 6850
 Wire Notes Line
@@ -381,26 +340,10 @@ Connection ~ 8050 800
 Connection ~ 8450 800 
 Connection ~ 8450 1200
 Connection ~ 8050 1200
-Wire Wire Line
-	1200 3800 1100 3800
-Wire Wire Line
-	1100 3800 1100 3750
 Connection ~ 1200 3800
 Connection ~ 1200 3900
-Connection ~ 650  3300
-Wire Wire Line
-	1200 3700 900  3700
-Wire Wire Line
-	1050 2650 1050 2200
-Wire Wire Line
-	750  2650 750  2600
-Wire Wire Line
-	750  2600 850  2600
-Wire Wire Line
-	850  2600 850  2200
 Wire Wire Line
 	1150 2200 1150 2300
-Connection ~ 1150 2200
 Connection ~ 1150 2250
 Wire Wire Line
 	10950 2950 10950 3350
@@ -451,61 +394,6 @@ F 2 "" H 1150 2300 60  0001 C CNN
 F 3 "" H 1150 2300 60  0001 C CNN
 	1    1150 2300
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_5 P2
-U 1 1 50D20649
-P 950 1800
-F 0 "P2" V 900 1800 50  0000 C CNN
-F 1 "GND-T0-T1-T2-T3" V 1000 1800 50  0000 C CNN
-F 2 "" H 950 1800 60  0001 C CNN
-F 3 "" H 950 1800 60  0001 C CNN
-	1    950  1800
-	0    1    -1   0   
-$EndComp
-$Comp
-L R R16
-U 1 1 50A13AA3
-P 1050 2900
-F 0 "R16" V 1130 2900 50  0000 C CNN
-F 1 "1k" V 1050 2900 50  0000 C CNN
-F 2 "" H 1050 2900 60  0001 C CNN
-F 3 "" H 1050 2900 60  0001 C CNN
-	1    1050 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R15
-U 1 1 50A13A42
-P 900 3450
-F 0 "R15" V 980 3450 50  0000 C CNN
-F 1 "1k" V 900 3450 50  0000 C CNN
-F 2 "" H 900 3450 60  0001 C CNN
-F 3 "" H 900 3450 60  0001 C CNN
-	1    900  3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R13
-U 1 1 509BDA7F
-P 650 3550
-F 0 "R13" V 730 3550 50  0000 C CNN
-F 1 "1k" V 650 3550 50  0000 C CNN
-F 2 "" H 650 3550 60  0001 C CNN
-F 3 "" H 650 3550 60  0001 C CNN
-	1    650  3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R14
-U 1 1 509BDA70
-P 750 2900
-F 0 "R14" V 830 2900 50  0000 C CNN
-F 1 "1k" V 750 2900 50  0000 C CNN
-F 2 "" H 750 2900 60  0001 C CNN
-F 3 "" H 750 2900 60  0001 C CNN
-	1    750  2900
-	-1   0    0    1   
 $EndComp
 Text GLabel 10450 4600 0    20   Input ~ 0
 PCB-GND
@@ -687,7 +575,6 @@ NoConn ~ 1200 5400
 NoConn ~ 1200 5300
 NoConn ~ 1200 5200
 NoConn ~ 1200 5100
-NoConn ~ 1200 4700
 NoConn ~ 1200 4600
 NoConn ~ 1200 3500
 NoConn ~ 1200 3400
@@ -1392,14 +1279,6 @@ Text GLabel 7500 1850 2    20   Input ~ 0
 PCB-GND
 Connection ~ 7500 1850
 Connection ~ 7500 2950
-Text GLabel 8700 4600 0    40   Input ~ 0
-PT4
-Text GLabel 9500 4600 2    40   Input ~ 0
-PT5
-Text GLabel 8700 4700 0    40   Input ~ 0
-PT6
-Text GLabel 9500 4700 2    40   Input ~ 0
-PT7
 Text GLabel 1200 4200 0    40   Input ~ 0
 PT4
 Text GLabel 1200 4300 0    40   Input ~ 0
@@ -1412,32 +1291,6 @@ Connection ~ 1200 4200
 Connection ~ 1200 4300
 Connection ~ 1200 4400
 Connection ~ 1200 4500
-$Comp
-L CONN_2X2 P4
-U 1 1 553C1C3C
-P 9100 4650
-F 0 "P4" H 9100 4800 50  0000 C CNN
-F 1 "T4-T5-T6-T7" H 9110 4520 40  0000 C CNN
-F 2 "" H 9100 4650 60  0000 C CNN
-F 3 "" H 9100 4650 60  0000 C CNN
-	1    9100 4650
-	1    0    0    -1  
-$EndComp
-Connection ~ 8700 4600
-Connection ~ 8700 4700
-Connection ~ 9500 4600
-Connection ~ 9500 4700
-$Comp
-L CONN_1 A7
-U 1 1 553E1BE1
-P 6150 4700
-F 0 "A7" H 6230 4700 40  0000 L CNN
-F 1 "PA7" H 6150 4755 30  0001 C CNN
-F 2 "" H 6150 4700 60  0001 C CNN
-F 3 "" H 6150 4700 60  0001 C CNN
-	1    6150 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 6000 4700
 $Comp
 L SOLDER_BRIDGE SW7
@@ -1514,4 +1367,78 @@ Wire Wire Line
 	9300 700  9300 800 
 Wire Wire Line
 	9300 800  9400 800 
+$Comp
+L CONN_1 PK4
+U 1 1 553E3467
+P 1050 4700
+F 0 "PK4" H 1130 4700 40  0000 L CNN
+F 1 "PK4" H 1050 4755 30  0001 C CNN
+F 2 "" H 1050 4700 60  0001 C CNN
+F 3 "" H 1050 4700 60  0001 C CNN
+	1    1050 4700
+	-1   0    0    1   
+$EndComp
+Connection ~ 1200 4700
+$Comp
+L CONN_4X2 P2
+U 1 1 553E3A5F
+P 10500 4000
+F 0 "P2" H 10500 4250 50  0000 C CNN
+F 1 "Port T" V 10500 4000 40  0000 C CNN
+F 2 "" H 10500 4000 60  0000 C CNN
+F 3 "" H 10500 4000 60  0000 C CNN
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 3850 0    40   Input ~ 0
+PT0
+Text GLabel 10100 3950 0    40   Input ~ 0
+PT2
+Text GLabel 10100 4050 0    40   Input ~ 0
+PT4
+Text GLabel 10100 4150 0    40   Input ~ 0
+PT6
+Text GLabel 10900 3850 2    40   Input ~ 0
+PT1
+Text GLabel 10900 3950 2    40   Input ~ 0
+PT3
+Text GLabel 10900 4050 2    40   Input ~ 0
+PT5
+Text GLabel 10900 4150 2    40   Input ~ 0
+PT7
+Connection ~ 10100 3850
+Connection ~ 10100 3950
+Connection ~ 10100 4050
+Connection ~ 10100 4150
+Connection ~ 10900 4150
+Connection ~ 10900 4050
+Connection ~ 10900 3950
+Connection ~ 10900 3850
+Text GLabel 1200 3600 0    40   Input ~ 0
+PT0
+Text GLabel 1200 3700 0    40   Input ~ 0
+PT1
+Text GLabel 1200 3800 0    40   Input ~ 0
+PT2
+Text GLabel 1200 3900 0    40   Input ~ 0
+PT3
+Text GLabel 6000 4700 2    40   Input ~ 0
+PA7
+$Comp
+L CONN_2 P4
+U 1 1 553E4424
+P 9300 4700
+F 0 "P4" V 9250 4700 40  0000 C CNN
+F 1 "PA7-GND" V 9350 4700 40  0000 C CNN
+F 2 "" H 9300 4700 60  0001 C CNN
+F 3 "" H 9300 4700 60  0001 C CNN
+	1    9300 4700
+	1    0    0    1   
+$EndComp
+Text GLabel 8950 4800 0    40   Input ~ 0
+PA7
+Text GLabel 8950 4600 0    20   Input ~ 0
+PCB-GND
+Connection ~ 8950 4600
+Connection ~ 8950 4800
 $EndSCHEMATC
