@@ -91,7 +91,7 @@ Connection ~ 10950 2050
 Wire Wire Line
 	8850 800  8850 1300
 Wire Wire Line
-	7750 800  8850 800 
+	7750 800  8900 800 
 Connection ~ 7750 1300
 Connection ~ 7750 800 
 Wire Wire Line
@@ -664,7 +664,7 @@ F 3 "" H 7550 1600 60  0001 C CNN
 	1    7550 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 2800 2    40   Input ~ 0
+Text GLabel 6450 2800 2    40   Input ~ 0
 5vdc-cpu
 Text Notes 7250 4450 1    40   ~ 0
 Load/Run LED
@@ -1241,7 +1241,7 @@ X7R Ceramic
 Text Notes 3850 7000 0    40   ~ 0
 X7R Ceramic
 Text GLabel 7750 800  0    40   Input ~ 0
-5vdc-cpu
+5vdc-usb
 Text GLabel 4900 1250 0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 9650 5750 2    40   Input ~ 0
@@ -1252,8 +1252,6 @@ Text GLabel 7750 1750 2    20   Input ~ 0
 PCB-GND
 Text GLabel 6000 1700 2    20   Input ~ 0
 PCB-GND
-Text GLabel 6000 2700 2    40   Input ~ 0
-5vdc-cpu
 Text GLabel 7800 4000 2    40   Input ~ 0
 5vdc-cpu
 Text GLabel 6650 4350 1    20   Input ~ 0
@@ -1325,9 +1323,9 @@ Connection ~ 8250 2600
 Text GLabel 8250 2600 2    20   Input ~ 0
 PCB-GND
 Text GLabel 10950 750  0    40   Input ~ 0
-5vdc-cpu
+5vdc-usb
 Text GLabel 10450 3350 0    40   Input ~ 0
-5vdc-cpu
+5vdc-usb
 Connection ~ 10450 4600
 Text GLabel 6000 4400 2    40   Input ~ 0
 AN0
@@ -1441,4 +1439,79 @@ F 3 "" H 6150 4700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6000 4700
+$Comp
+L SOLDER_BRIDGE SW7
+U 1 1 553E24FD
+P 9100 800
+F 0 "SW7" V 9200 800 50  0000 C CNN
+F 1 "SOLDER_BRIDGE" V 9000 800 40  0000 C CNN
+F 2 "" H 9100 800 60  0001 C CNN
+F 3 "" H 9100 800 60  0001 C CNN
+	1    9100 800 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9400 800  2    40   Input ~ 0
+5vdc-cpu
+Connection ~ 8850 800 
+Connection ~ 8900 800 
+Connection ~ 9300 800 
+$Comp
+L SOLDER_BRIDGE SW6
+U 1 1 553E294D
+P 6250 2600
+F 0 "SW6" V 6350 2600 50  0000 C CNN
+F 1 "SOLDER_BRIDGE" V 6150 2600 40  0000 C CNN
+F 2 "" H 6250 2600 60  0001 C CNN
+F 3 "" H 6250 2600 60  0001 C CNN
+	1    6250 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 2800 6400 2800
+Wire Wire Line
+	6400 2800 6400 2850
+Wire Wire Line
+	6400 2850 6250 2850
+Wire Wire Line
+	6250 2850 6250 2800
+Wire Wire Line
+	6250 2800 6000 2800
+Wire Wire Line
+	6000 2700 6100 2700
+Wire Wire Line
+	6100 2700 6100 2400
+Wire Wire Line
+	6100 2400 6250 2400
+Wire Wire Line
+	6250 2400 6250 2350
+Wire Wire Line
+	6250 2350 6450 2350
+$Comp
+L CONN_1 P5
+U 1 1 553E2E31
+P 6600 2350
+F 0 "P5" H 6680 2350 40  0000 L CNN
+F 1 "VRH" H 6600 2405 30  0001 C CNN
+F 2 "" H 6600 2350 60  0001 C CNN
+F 3 "" H 6600 2350 60  0001 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1 P6
+U 1 1 553E2E75
+P 9550 700
+F 0 "P6" H 9630 700 40  0000 L CNN
+F 1 "CPU-5v" H 9550 755 30  0001 C CNN
+F 2 "" H 9550 700 60  0001 C CNN
+F 3 "" H 9550 700 60  0001 C CNN
+	1    9550 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 700  9300 700 
+Wire Wire Line
+	9300 700  9300 800 
+Wire Wire Line
+	9300 800  9400 800 
 $EndSCHEMATC
