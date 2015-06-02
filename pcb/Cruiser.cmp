@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 27 Apr 2015 10:31:00 AM EDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 30 Apr 2015 09:48:31 AM EDT
 
 BeginCmp
 TimeStamp = /50954237;
@@ -176,31 +176,10 @@ IdModule  = pin_strip_4x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /553E4424;
-Reference = P4;
-ValeurCmp = PA7-GND;
-IdModule  = pin_strip_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /553E2E31;
+TimeStamp = /553FA598;
 Reference = P5;
-ValeurCmp = VRH;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /553E2E75;
-Reference = P6;
-ValeurCmp = CPU-5v;
-IdModule  = WireConnection;
-EndCmp
-
-BeginCmp
-TimeStamp = /553E3467;
-Reference = PK4;
-ValeurCmp = PK4;
-IdModule  = WireConnection;
+ValeurCmp = PK4-CPU-5v-PA7;
+IdModule  = pin_strip_4;
 EndCmp
 
 BeginCmp
@@ -311,13 +290,6 @@ EndCmp
 BeginCmp
 TimeStamp = /50ED87A1;
 Reference = SW5;
-ValeurCmp = SOLDER_BRIDGE;
-IdModule  = Solder-Bridge;
-EndCmp
-
-BeginCmp
-TimeStamp = /553E294D;
-Reference = SW6;
 ValeurCmp = SOLDER_BRIDGE;
 IdModule  = Solder-Bridge;
 EndCmp

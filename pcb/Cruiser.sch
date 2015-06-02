@@ -11,7 +11,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Cruiser Dev Board"
-Date "27 apr 2015"
+Date "30 apr 2015"
 Rev "0.3-alpha"
 Comp "Andy Goss"
 Comment1 "git hash: a64015f7f7"
@@ -552,7 +552,7 @@ F 3 "" H 7550 1600 60  0001 C CNN
 	1    7550 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6450 2800 2    40   Input ~ 0
+Text GLabel 6100 2750 2    40   Input ~ 0
 5vdc-cpu
 Text Notes 7250 4450 1    40   ~ 0
 Load/Run LED
@@ -1273,12 +1273,6 @@ Connection ~ 9500 3850
 Connection ~ 9500 3950
 Connection ~ 9500 4050
 Connection ~ 9500 4150
-Text GLabel 7500 2950 2    20   Input ~ 0
-PCB-GND
-Text GLabel 7500 1850 2    20   Input ~ 0
-PCB-GND
-Connection ~ 7500 1850
-Connection ~ 7500 2950
 Text GLabel 1200 4200 0    40   Input ~ 0
 PT4
 Text GLabel 1200 4300 0    40   Input ~ 0
@@ -1308,76 +1302,12 @@ Text GLabel 9400 800  2    40   Input ~ 0
 Connection ~ 8850 800 
 Connection ~ 8900 800 
 Connection ~ 9300 800 
-$Comp
-L SOLDER_BRIDGE SW6
-U 1 1 553E294D
-P 6250 2600
-F 0 "SW6" V 6350 2600 50  0000 C CNN
-F 1 "SOLDER_BRIDGE" V 6150 2600 40  0000 C CNN
-F 2 "" H 6250 2600 60  0001 C CNN
-F 3 "" H 6250 2600 60  0001 C CNN
-	1    6250 2600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	6450 2800 6400 2800
-Wire Wire Line
-	6400 2800 6400 2850
-Wire Wire Line
-	6400 2850 6250 2850
-Wire Wire Line
-	6250 2850 6250 2800
-Wire Wire Line
-	6250 2800 6000 2800
+	6100 2800 6000 2800
 Wire Wire Line
 	6000 2700 6100 2700
 Wire Wire Line
-	6100 2700 6100 2400
-Wire Wire Line
-	6100 2400 6250 2400
-Wire Wire Line
-	6250 2400 6250 2350
-Wire Wire Line
-	6250 2350 6450 2350
-$Comp
-L CONN_1 P5
-U 1 1 553E2E31
-P 6600 2350
-F 0 "P5" H 6680 2350 40  0000 L CNN
-F 1 "VRH" H 6600 2405 30  0001 C CNN
-F 2 "" H 6600 2350 60  0001 C CNN
-F 3 "" H 6600 2350 60  0001 C CNN
-	1    6600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1 P6
-U 1 1 553E2E75
-P 9550 700
-F 0 "P6" H 9630 700 40  0000 L CNN
-F 1 "CPU-5v" H 9550 755 30  0001 C CNN
-F 2 "" H 9550 700 60  0001 C CNN
-F 3 "" H 9550 700 60  0001 C CNN
-	1    9550 700 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 700  9300 700 
-Wire Wire Line
-	9300 700  9300 800 
-Wire Wire Line
 	9300 800  9400 800 
-$Comp
-L CONN_1 PK4
-U 1 1 553E3467
-P 1050 4700
-F 0 "PK4" H 1130 4700 40  0000 L CNN
-F 1 "PK4" H 1050 4755 30  0001 C CNN
-F 2 "" H 1050 4700 60  0001 C CNN
-F 3 "" H 1050 4700 60  0001 C CNN
-	1    1050 4700
-	-1   0    0    1   
-$EndComp
 Connection ~ 1200 4700
 $Comp
 L CONN_4X2 P2
@@ -1424,21 +1354,39 @@ Text GLabel 1200 3900 0    40   Input ~ 0
 PT3
 Text GLabel 6000 4700 2    40   Input ~ 0
 PA7
-$Comp
-L CONN_2 P4
-U 1 1 553E4424
-P 9300 4700
-F 0 "P4" V 9250 4700 40  0000 C CNN
-F 1 "PA7-GND" V 9350 4700 40  0000 C CNN
-F 2 "" H 9300 4700 60  0001 C CNN
-F 3 "" H 9300 4700 60  0001 C CNN
-	1    9300 4700
-	1    0    0    1   
-$EndComp
-Text GLabel 8950 4800 0    40   Input ~ 0
+Text GLabel 9450 5300 0    40   Input ~ 0
 PA7
-Text GLabel 8950 4600 0    20   Input ~ 0
+Text GLabel 1200 4700 0    40   Input ~ 0
+PK4
+Connection ~ 4200 6750
+Connection ~ 9150 5950
+Connection ~ 9650 5950
+Connection ~ 9650 5750
+Connection ~ 10150 5950
+Connection ~ 10200 6700
+Connection ~ 9400 800 
+Text GLabel 9450 5200 0    40   Input ~ 0
+5vdc-cpu
+Text GLabel 9450 5100 0    20   Input ~ 0
 PCB-GND
-Connection ~ 8950 4600
-Connection ~ 8950 4800
+Text GLabel 9450 5000 0    40   Input ~ 0
+PK4
+$Comp
+L CONN_4 P5
+U 1 1 553FA598
+P 9800 5150
+F 0 "P5" V 9750 5150 50  0000 C CNN
+F 1 "PK4-CPU-5v-PA7" H 9600 5400 50  0000 C CNN
+F 2 "" H 9800 5150 60  0000 C CNN
+F 3 "" H 9800 5150 60  0000 C CNN
+	1    9800 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 5000
+Connection ~ 9450 5100
+Connection ~ 9450 5200
+Connection ~ 9450 5300
+Wire Wire Line
+	6100 2700 6100 2800
+Connection ~ 6100 2750
 $EndSCHEMATC
