@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 30 Apr 2015 09:48:31 AM EDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 13 Sep 2016 03:07:00 PM EDT
 
 BeginCmp
 TimeStamp = /50954237;
@@ -176,10 +176,31 @@ IdModule  = pin_strip_4x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /57D717C4;
+Reference = P4;
+ValeurCmp = PWM;
+IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
 TimeStamp = /553FA598;
 Reference = P5;
 ValeurCmp = PK4-CPU-5v-PA7;
 IdModule  = pin_strip_4;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D817DC;
+Reference = P6;
+ValeurCmp = Port B;
+IdModule  = pin_strip_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /57D851E5;
+Reference = P7;
+ValeurCmp = CAN;
+IdModule  = pin_strip_2;
 EndCmp
 
 BeginCmp

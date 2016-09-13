@@ -11,7 +11,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Cruiser Dev Board"
-Date "30 apr 2015"
+Date "13 sep 2016"
 Rev "0.3-alpha"
 Comp "Andy Goss"
 Comment1 "git hash: a64015f7f7"
@@ -111,9 +111,9 @@ Connection ~ 8250 6600
 Wire Wire Line
 	8250 6650 8250 6600
 Wire Wire Line
-	2650 1450 2650 1550
+	2650 900  2650 1000
 Wire Wire Line
-	2650 1550 2800 1550
+	2650 1000 2800 1000
 Connection ~ 3800 7150
 Connection ~ 3400 7150
 Wire Wire Line
@@ -128,7 +128,7 @@ Connection ~ 3100 6600
 Wire Wire Line
 	3100 6500 3100 6600
 Wire Wire Line
-	3050 1450 3050 1600
+	3050 900  3050 1050
 Connection ~ 10000 6100
 Wire Wire Line
 	10000 6050 10000 6200
@@ -143,7 +143,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 4000 1000 4000
 Wire Wire Line
-	3050 1550 2900 1550
+	3050 1000 2900 1000
 Wire Wire Line
 	5000 1700 6000 1700
 Wire Wire Line
@@ -206,7 +206,7 @@ Connection ~ 7400 4000
 Wire Wire Line
 	9200 6200 9050 6200
 Wire Wire Line
-	2800 1550 2800 1700
+	2800 1000 2800 1700
 Wire Wire Line
 	850  4250 850  4100
 Wire Wire Line
@@ -247,9 +247,9 @@ Wire Wire Line
 Connection ~ 6000 2700
 Connection ~ 700  3850
 Wire Wire Line
-	2900 1550 2900 1700
-Connection ~ 2650 1450
-Connection ~ 3050 1450
+	2900 1000 2900 1700
+Connection ~ 2650 900 
+Connection ~ 3050 900 
 Wire Bus Line
 	6400 5700 7500 5700
 Wire Bus Line
@@ -263,7 +263,7 @@ Wire Wire Line
 Connection ~ 6000 4800
 Wire Wire Line
 	3500 6500 3500 6800
-Connection ~ 3050 1550
+Connection ~ 3050 1000
 Wire Wire Line
 	7000 5800 7300 5800
 Wire Wire Line
@@ -395,19 +395,19 @@ F 3 "" H 1150 2300 60  0001 C CNN
 	1    1150 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 10450 4600 0    20   Input ~ 0
+Text GLabel 8200 5700 0    20   Input ~ 0
 PCB-GND
-Text Notes 10200 4750 0    60   ~ 0
+Text Notes 7950 5850 0    60   ~ 0
 Keychain Hole
 $Comp
 L CONN_1 H1
 U 1 1 5096BAD1
-P 10600 4600
-F 0 "H1" H 10680 4600 40  0000 L CNN
-F 1 "Hole" H 10600 4655 30  0001 C CNN
-F 2 "" H 10600 4600 60  0001 C CNN
-F 3 "" H 10600 4600 60  0001 C CNN
-	1    10600 4600
+P 8350 5700
+F 0 "H1" H 8430 5700 40  0000 L CNN
+F 1 "Hole" H 8350 5755 30  0001 C CNN
+F 2 "" H 8350 5700 60  0001 C CNN
+F 3 "" H 8350 5700 60  0001 C CNN
+	1    8350 5700
 	1    0    0    -1  
 $EndComp
 Text GLabel 10100 3150 2    20   Input ~ 0
@@ -567,14 +567,6 @@ F 3 "" H 3600 7150 60  0001 C CNN
 	1    3600 7150
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 2500 6500
-NoConn ~ 2400 6500
-NoConn ~ 2300 6500
-NoConn ~ 1200 5500
-NoConn ~ 1200 5400
-NoConn ~ 1200 5300
-NoConn ~ 1200 5200
-NoConn ~ 1200 5100
 NoConn ~ 1200 4600
 NoConn ~ 1200 3500
 NoConn ~ 1200 3400
@@ -584,12 +576,6 @@ NoConn ~ 2300 1700
 NoConn ~ 2400 1700
 NoConn ~ 2500 1700
 NoConn ~ 2600 1700
-NoConn ~ 1200 2800
-NoConn ~ 1200 2900
-NoConn ~ 1200 3000
-NoConn ~ 1200 3100
-NoConn ~ 3000 1700
-NoConn ~ 3100 1700
 NoConn ~ 4300 1700
 NoConn ~ 4400 1700
 NoConn ~ 6000 2900
@@ -613,12 +599,12 @@ X7R Ceramic
 $Comp
 L C C5
 U 1 1 5095424B
-P 2850 1450
-F 0 "C5" H 2900 1550 50  0000 L CNN
-F 1 "0.22uF" H 2900 1350 50  0000 L CNN
-F 2 "" H 2850 1450 60  0001 C CNN
-F 3 "" H 2850 1450 60  0001 C CNN
-	1    2850 1450
+P 2850 900
+F 0 "C5" H 2900 1000 50  0000 L CNN
+F 1 "0.22uF" H 2900 800 50  0000 L CNN
+F 2 "" H 2850 900 60  0001 C CNN
+F 3 "" H 2850 900 60  0001 C CNN
+	1    2850 900 
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -982,12 +968,12 @@ $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5095422D
-P 3050 1600
-F 0 "#PWR09" H 3050 1600 30  0001 C CNN
-F 1 "GND" H 3050 1530 30  0001 C CNN
-F 2 "" H 3050 1600 60  0001 C CNN
-F 3 "" H 3050 1600 60  0001 C CNN
-	1    3050 1600
+P 3050 1050
+F 0 "#PWR09" H 3050 1050 30  0001 C CNN
+F 1 "GND" H 3050 980 30  0001 C CNN
+F 2 "" H 3050 1050 60  0001 C CNN
+F 3 "" H 3050 1050 60  0001 C CNN
+	1    3050 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1123,7 +1109,7 @@ F 3 "" H 10850 6500 60  0001 C CNN
 	1    10850 6500
 	1    0    0    1   
 $EndComp
-Text Notes 2300 1400 0    40   ~ 0
+Text Notes 2300 850  0    40   ~ 0
 X7R Ceramic
 Text Notes 3850 7000 0    40   ~ 0
 X7R Ceramic
@@ -1161,9 +1147,9 @@ Text GLabel 2900 7100 0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 700  4250 0    20   Input ~ 0
 PCB-GND
-Text GLabel 3050 1550 2    20   Input ~ 0
+Text GLabel 3050 1000 2    20   Input ~ 0
 PCB-GND
-Text GLabel 2650 1450 0    40   Input ~ 0
+Text GLabel 2650 900  0    40   Input ~ 0
 5vdc-cpu
 Text GLabel 3800 1700 1    40   Input ~ 0
 5vdc-cpu
@@ -1171,10 +1157,10 @@ Text GLabel 10000 6050 0    20   Input ~ 0
 PCB-GND
 Text GLabel 10200 6700 0    20   Input ~ 0
 PCB-GND
-Text Notes 550  1000 0    60   ~ 0
-The board is powered completely by the USB port,\nso no external power supply is needed.
+Text Notes 550  1150 0    60   ~ 0
+The board is powered completely\nby the USB port, so no external\npower supply is needed.
 Text Notes 550  650  0    60   ~ 0
-This goal of this project is to develop a small portable\ndevelopment board you can carry with you to develop\ncode against.
+This goal of this project is to\ndevelop a small portable\ndevelopment board you can\ncarry with you to develop\ncode against.
 $Comp
 L USB_B-MICRO J2
 U 1 1 553A377B
@@ -1213,7 +1199,7 @@ Text GLabel 10950 750  0    40   Input ~ 0
 5vdc-usb
 Text GLabel 10450 3350 0    40   Input ~ 0
 5vdc-usb
-Connection ~ 10450 4600
+Connection ~ 8200 5700
 Text GLabel 6000 4400 2    40   Input ~ 0
 AN0
 Text GLabel 6000 4200 2    40   Input ~ 0
@@ -1231,31 +1217,31 @@ AN7
 $Comp
 L CONN_4X2 P3
 U 1 1 553BE11D
-P 9100 4000
-F 0 "P3" H 9100 4250 50  0000 C CNN
-F 1 "A/D" V 9100 4000 40  0000 C CNN
-F 2 "" H 9100 4000 60  0000 C CNN
-F 3 "" H 9100 4000 60  0000 C CNN
-	1    9100 4000
+P 9100 3900
+F 0 "P3" H 9100 4150 50  0000 C CNN
+F 1 "A/D" V 9100 3900 40  0000 C CNN
+F 2 "" H 9100 3900 60  0000 C CNN
+F 3 "" H 9100 3900 60  0000 C CNN
+	1    9100 3900
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8700 3850 0    40   Input ~ 0
+Text GLabel 8700 3750 0    40   Input ~ 0
 AN0
-Text GLabel 9500 3850 2    40   Input ~ 0
+Text GLabel 9500 3750 2    40   Input ~ 0
 AN1
-Text GLabel 8700 3950 0    40   Input ~ 0
+Text GLabel 8700 3850 0    40   Input ~ 0
 AN2
-Text GLabel 9500 3950 2    40   Input ~ 0
+Text GLabel 9500 3850 2    40   Input ~ 0
 AN3
-Text GLabel 8700 4050 0    40   Input ~ 0
+Text GLabel 8700 3950 0    40   Input ~ 0
 AN4
-Text GLabel 9500 4050 2    40   Input ~ 0
+Text GLabel 9500 3950 2    40   Input ~ 0
 AN5
 Text GLabel 6000 3200 2    40   Input ~ 0
 AN6
-Text GLabel 8700 4150 0    40   Input ~ 0
+Text GLabel 8700 4050 0    40   Input ~ 0
 AN6
-Text GLabel 9500 4150 2    40   Input ~ 0
+Text GLabel 9500 4050 2    40   Input ~ 0
 AN7
 Connection ~ 6000 4400
 Connection ~ 6000 4200
@@ -1265,14 +1251,14 @@ Connection ~ 6000 3600
 Connection ~ 6000 3400
 Connection ~ 6000 3200
 Connection ~ 6000 3000
+Connection ~ 8700 3750
 Connection ~ 8700 3850
 Connection ~ 8700 3950
 Connection ~ 8700 4050
-Connection ~ 8700 4150
+Connection ~ 9500 3750
 Connection ~ 9500 3850
 Connection ~ 9500 3950
 Connection ~ 9500 4050
-Connection ~ 9500 4150
 Text GLabel 1200 4200 0    40   Input ~ 0
 PT4
 Text GLabel 1200 4300 0    40   Input ~ 0
@@ -1312,38 +1298,38 @@ Connection ~ 1200 4700
 $Comp
 L CONN_4X2 P2
 U 1 1 553E3A5F
-P 10500 4000
-F 0 "P2" H 10500 4250 50  0000 C CNN
-F 1 "Port T" V 10500 4000 40  0000 C CNN
-F 2 "" H 10500 4000 60  0000 C CNN
-F 3 "" H 10500 4000 60  0000 C CNN
-	1    10500 4000
+P 10500 3900
+F 0 "P2" H 10500 4150 50  0000 C CNN
+F 1 "Port T" V 10500 3900 40  0000 C CNN
+F 2 "" H 10500 3900 60  0000 C CNN
+F 3 "" H 10500 3900 60  0000 C CNN
+	1    10500 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 3850 0    40   Input ~ 0
+Text GLabel 10100 3750 0    40   Input ~ 0
 PT0
-Text GLabel 10100 3950 0    40   Input ~ 0
+Text GLabel 10100 3850 0    40   Input ~ 0
 PT2
-Text GLabel 10100 4050 0    40   Input ~ 0
+Text GLabel 10100 3950 0    40   Input ~ 0
 PT4
-Text GLabel 10100 4150 0    40   Input ~ 0
+Text GLabel 10100 4050 0    40   Input ~ 0
 PT6
-Text GLabel 10900 3850 2    40   Input ~ 0
+Text GLabel 10900 3750 2    40   Input ~ 0
 PT1
-Text GLabel 10900 3950 2    40   Input ~ 0
+Text GLabel 10900 3850 2    40   Input ~ 0
 PT3
-Text GLabel 10900 4050 2    40   Input ~ 0
+Text GLabel 10900 3950 2    40   Input ~ 0
 PT5
-Text GLabel 10900 4150 2    40   Input ~ 0
+Text GLabel 10900 4050 2    40   Input ~ 0
 PT7
+Connection ~ 10100 3750
 Connection ~ 10100 3850
 Connection ~ 10100 3950
 Connection ~ 10100 4050
-Connection ~ 10100 4150
-Connection ~ 10900 4150
 Connection ~ 10900 4050
 Connection ~ 10900 3950
 Connection ~ 10900 3850
+Connection ~ 10900 3750
 Text GLabel 1200 3600 0    40   Input ~ 0
 PT0
 Text GLabel 1200 3700 0    40   Input ~ 0
@@ -1354,7 +1340,7 @@ Text GLabel 1200 3900 0    40   Input ~ 0
 PT3
 Text GLabel 6000 4700 2    40   Input ~ 0
 PA7
-Text GLabel 9450 5300 0    40   Input ~ 0
+Text GLabel 8750 5300 0    40   Input ~ 0
 PA7
 Text GLabel 1200 4700 0    40   Input ~ 0
 PK4
@@ -1365,28 +1351,157 @@ Connection ~ 9650 5750
 Connection ~ 10150 5950
 Connection ~ 10200 6700
 Connection ~ 9400 800 
-Text GLabel 9450 5200 0    40   Input ~ 0
+Text GLabel 8750 5200 0    40   Input ~ 0
 5vdc-cpu
-Text GLabel 9450 5100 0    20   Input ~ 0
+Text GLabel 8750 5100 0    20   Input ~ 0
 PCB-GND
-Text GLabel 9450 5000 0    40   Input ~ 0
+Text GLabel 8750 5000 0    40   Input ~ 0
 PK4
 $Comp
 L CONN_4 P5
 U 1 1 553FA598
-P 9800 5150
-F 0 "P5" V 9750 5150 50  0000 C CNN
-F 1 "PK4-CPU-5v-PA7" H 9600 5400 50  0000 C CNN
-F 2 "" H 9800 5150 60  0000 C CNN
-F 3 "" H 9800 5150 60  0000 C CNN
-	1    9800 5150
+P 9100 5150
+F 0 "P5" V 9050 5150 50  0000 C CNN
+F 1 "PK4-CPU-5v-PA7" H 8900 5400 50  0000 C CNN
+F 2 "" H 9100 5150 60  0000 C CNN
+F 3 "" H 9100 5150 60  0000 C CNN
+	1    9100 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 9450 5000
-Connection ~ 9450 5100
-Connection ~ 9450 5200
-Connection ~ 9450 5300
+Connection ~ 8750 5000
+Connection ~ 8750 5100
+Connection ~ 8750 5200
+Connection ~ 8750 5300
 Wire Wire Line
 	6100 2700 6100 2800
 Connection ~ 6100 2750
+$Comp
+L GND #PWR015
+U 1 1 57D71601
+P 7500 2950
+F 0 "#PWR015" H 7500 2950 30  0001 C CNN
+F 1 "GND" H 7500 2880 30  0001 C CNN
+F 2 "" H 7500 2950 60  0001 C CNN
+F 3 "" H 7500 2950 60  0001 C CNN
+	1    7500 2950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 2950
+$Comp
+L CONN_4 P4
+U 1 1 57D717C4
+P 10500 5150
+F 0 "P4" V 10450 5150 50  0000 C CNN
+F 1 "PWM" H 10300 5400 50  0000 C CNN
+F 2 "" H 10500 5150 60  0000 C CNN
+F 3 "" H 10500 5150 60  0000 C CNN
+	1    10500 5150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10850 5000 2    40   Input ~ 0
+PP0
+Text GLabel 10850 5100 2    40   Input ~ 0
+PP1
+Text GLabel 10850 5200 2    40   Input ~ 0
+PP2
+Text GLabel 10850 5300 2    40   Input ~ 0
+PP3
+Text GLabel 1200 3100 0    40   Input ~ 0
+PP0
+Text GLabel 1200 3000 0    40   Input ~ 0
+PP1
+Text GLabel 1200 2900 0    40   Input ~ 0
+PP2
+Text GLabel 1200 2800 0    40   Input ~ 0
+PP3
+Connection ~ 1200 2800
+Connection ~ 1200 2900
+Connection ~ 1200 3000
+Connection ~ 1200 3100
+$Comp
+L CONN_4X2 P6
+U 1 1 57D817DC
+P 9100 4450
+F 0 "P6" H 9100 4700 50  0000 C CNN
+F 1 "Port B" V 9100 4450 40  0000 C CNN
+F 2 "" H 9100 4450 60  0000 C CNN
+F 3 "" H 9100 4450 60  0000 C CNN
+	1    9100 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8700 4300 0    40   Input ~ 0
+PB0
+Text GLabel 8700 4400 0    40   Input ~ 0
+PB2
+Text GLabel 8700 4500 0    40   Input ~ 0
+PB4
+Text GLabel 8700 4600 0    40   Input ~ 0
+PB6
+Text GLabel 9500 4300 2    40   Input ~ 0
+PB1
+Text GLabel 9500 4400 2    40   Input ~ 0
+PB3
+Text GLabel 9500 4500 2    40   Input ~ 0
+PB5
+Text GLabel 9500 4600 2    40   Input ~ 0
+PB7
+Connection ~ 8700 4300
+Connection ~ 8700 4400
+Connection ~ 8700 4500
+Connection ~ 8700 4600
+Connection ~ 9500 4600
+Connection ~ 9500 4500
+Connection ~ 9500 4400
+Connection ~ 9500 4300
+Connection ~ 10850 5000
+Connection ~ 10850 5100
+Connection ~ 10850 5200
+Connection ~ 10850 5300
+Text GLabel 1200 5100 0    40   Input ~ 0
+PB0
+Text GLabel 1200 5300 0    40   Input ~ 0
+PB2
+Text GLabel 1200 5500 0    40   Input ~ 0
+PB4
+Text GLabel 2400 6500 3    40   Input ~ 0
+PB6
+Text GLabel 1200 5200 0    40   Input ~ 0
+PB1
+Text GLabel 1200 5400 0    40   Input ~ 0
+PB3
+Text GLabel 2300 6500 3    40   Input ~ 0
+PB5
+Text GLabel 2500 6500 3    40   Input ~ 0
+PB7
+Connection ~ 2500 6500
+Connection ~ 2400 6500
+Connection ~ 2300 6500
+Connection ~ 1200 5500
+Connection ~ 1200 5400
+Connection ~ 1200 5300
+Connection ~ 1200 5200
+Connection ~ 1200 5100
+Text GLabel 3000 1700 1    40   Input ~ 0
+RX-CAN
+Text GLabel 3100 1700 1    40   Output ~ 0
+TX-CAN
+Connection ~ 3000 1700
+Connection ~ 3100 1700
+$Comp
+L CONN_2 P7
+U 1 1 57D851E5
+P 10500 4500
+F 0 "P7" H 10500 4700 50  0000 C CNN
+F 1 "CAN" V 10550 4500 40  0000 C CNN
+F 2 "" H 10500 4500 60  0000 C CNN
+F 3 "" H 10500 4500 60  0000 C CNN
+	1    10500 4500
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10850 4400 2    40   Input ~ 0
+RX-CAN
+Text GLabel 10850 4600 2    40   Output ~ 0
+TX-CAN
+Connection ~ 10850 4400
+Connection ~ 10850 4600
 $EndSCHEMATC
