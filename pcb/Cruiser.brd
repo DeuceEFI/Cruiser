@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Tue 13 Sep 2016 06:52:55 PM EDT
+PCBNEW-BOARD Version 2 date Sat 19 May 2018 03:07:04 PM EDT
 
 # Created by Pcbnew(22-Jun-2014 BZR 4027)-stable
 
@@ -21,10 +21,10 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Cruiser Dev Board"
-Date "13 sep 2016"
-Rev "0.3-alpha"
+Date "19 may 2018"
+Rev "0.4-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: a64015f7f7"
+Comment1 "git hash: 377e2fe2ff"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -61,7 +61,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFBF
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerber/new/))
 $EndSETUP
 
 $EQUIPOT
@@ -4491,12 +4491,12 @@ Po 142.69974 83.99018 0.889 0.889 0.1778 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Git: xxxxxxxxxx"
+Te "Git: 377e2fe2ff"
 Po 122.76 93.47 0.762 0.762 0.127 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Copyright 2012-2016"
+Te "Copyright 2012-2018"
 Po 143.1 85.4 0.762 0.762 0.1778 0
 De 20 0 0 Normal
 $EndTEXTPCB

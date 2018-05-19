@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:opto
-LIBS:Jaguar
 LIBS:power
 LIBS:conn
 LIBS:transistors
@@ -12,9 +11,9 @@ encoding utf-8
 Sheet 1 1
 Title "Cruiser Dev Board"
 Date "13 sep 2016"
-Rev "0.3-alpha"
+Rev "0.4-alpha"
 Comp "Andy Goss"
-Comment1 "git hash: a64015f7f7"
+Comment1 "git hash: 377e2fe2ff"
 Comment2 ""
 Comment3 ""
 Comment4 ""
